@@ -7,7 +7,7 @@
 <p align="center">
     <a href="/docs/readme_fr.md">Español </a>
     ·
-    <a href="/docs/readme_cn.md"></a>
+    <a href="/docs/readme_cn.md">Portuguese</a>
     ·
 </p>
 
