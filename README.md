@@ -14,13 +14,13 @@ Prevention Education and Research in Latin America (PERLA) Lab
 
 ### Background
 
-While the United States has seen substantial growth in the application of Machine Learning (ML) techniques in public health, Latin America presents an untapped opportunity for expansion. This project aims to capitalize on this potential by harmonizing and sharing ML methodologies in the region, thereby fostering scientific inclusivity and enhancing prevention science in Latin America.
+While the United States has seen substantial growth in the application of Machine Learning techniques in public health, Latin America presents an untapped opportunity for expansion. This project aims to capitalize on this potential by harmonizing and sharing Machine Learning methodologies in the region, thereby fostering scientific inclusivity and enhancing prevention science in Latin America.
 
 ---
 
 ### Objectives
 
-1. To adapt ML methodologies to be culturally and linguistically appropriate for Latin American researchers.
+1. To adapt Machine Learning methodologies to be culturally and linguistically appropriate for Latin American researchers.
 2. To disseminate these methodologies through academic and research collaborations.
 
 ---
