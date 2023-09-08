@@ -1,8 +1,8 @@
-<center>
+<div align="center">
     <a>
         <img src="img/logo.svg" height="150"/>
     </a>
-</center>
+</div>
 
 
 # An Initiative for Prevention Education and Research in Latin America
