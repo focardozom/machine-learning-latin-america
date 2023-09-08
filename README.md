@@ -1,14 +1,18 @@
-### Project Overview
-**Project Title**: Bridging the Machine Learning Gap: An Initiative for Prevention Education and Research in Latin America
+<center>
+    <a>
+        <img src="img/logo.svg" height="150"/>
+    </a>
+</center>
 
-**Principal Investigators**:  
-- Dr. Eric C. Brown, Associate Professor
-- Francisco Cardozo, PhD Candidate in Prevention Science and Community Health
 
-**Affiliation**:  
-University of Miami
-Miller School of Medicine
-Prevention Education and Research in Latin America (PERLA) Lab
+# An Initiative for Prevention Education and Research in Latin America
+
+- Dr. Eric C. Brown
+- Francisco Cardozo
+
+University of Miami  
+Miller School of Medicine  
+Prevention Education and Research in Latin America Lab (PERLA) 
 
 ---
 
