@@ -37,18 +37,27 @@ While the United States has seen substantial growth in the application of Machin
 
 ---
 
-### Methods and Approach
+[**Table of content**](#table-of-content)
 
-The PERLA lab will deliver workshops and training sessions utilizing large-scale datasets provided by our collaborators. These datasets encompass health and educational risk and protective factors.
+[**Day 0**](#day0)  
+  * [**1 - Topic1**](www)
 
----
+[**Day 1**](#day1)  
+  * [**1 - Topic1**](www)
 
-### Anticipated Impact
+[**Day 2**](#day2)  
+  * [**1 - topic2**](wwww)
 
-Funding from UM-IDSC will contribute to improving public health and education across the Americas, aligning with the University of Miami’s mission of fostering an inclusive academic community.
 
----
+### License
 
-### Conclusion
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-By partnering with key institutions in Colombia, this project aims to reduce scientific inequity by empowering Latin American researchers with ML tools tailored to their specific cultural and linguistic needs.
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
