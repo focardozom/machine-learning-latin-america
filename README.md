@@ -16,10 +16,13 @@
 > [!WARNING]\
 > This website is under construction. Please, check back later for updates. :octocat:
 
-[Eric C. Brown](https://med.miami.edu/faculty/dr-eric-c-brown-phd), [Francisco Cardozo](https://focardozom.github.io), [Maria Fernanda Reyes](https://cienciassociales.uniandes.edu.co/psicologia/profesores/maria-fernanda-reyes-rodriguez/)
+[Eric C. Brown](https://med.miami.edu/faculty/dr-eric-c-brown-phd)[^1], [Francisco Cardozo](https://focardozom.github.io)[^1], [Maria Fernanda Reyes](https://cienciassociales.uniandes.edu.co/psicologia/profesores/maria-fernanda-reyes-rodriguez/)[^2]
 
-University of Miami, Miller School of Medicine, Department of Public Health Sciences, 
-Universidad de los Andes. Facultad de Ciencias Sociales. Departamento de Psicología. 
+[^1]: University of Miami, Miller School of Medicine, Department of Public Health Sciences.
+[^2]: Universidad de los Andes. Facultad de Ciencias Sociales. Departamento de Psicología..
+
+
+
 
 > [!IMPORTANT]
 > This project was develop with the support of the *Expanding the Use of Collaborative Data Science at UM* Fall 2022 from the Institute for Data Science and Computing (IDSC) at the University of Miami.
@@ -57,13 +60,13 @@ This project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By partic
 [**Table of content**](#table-of-content)
 
 [**Day 0**](#day0)  
-  * [**1 - Preparation**](doc/day0.md)
+  * [**1 - Preparation**](docs/day0.md)
 
 [**Day 1**](#day1)  
-  * [**1 - Topic1**](doc/day1.md)
+  * [**1 - Topic1**](docs/day1.md)
 
 [**Day 2**](#day2)  
-  * [**1 - topic2**](doc/day1.md)
+  * [**1 - topic2**](docs/day1.md)
 
 ---
 
