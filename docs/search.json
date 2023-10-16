@@ -88,6 +88,41 @@
     "href": "index.html",
     "title": "Bienvenidos",
     "section": "",
-    "text": "Bienvenidos\n\n\nInstrucciones\n\n\nDiapositivas\n\n\nIntroduccion\n\n\nas"
+    "text": "Les damos la bienvenida al taller de la Universidad de los Andes, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página web, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado."
+  },
+  {
+    "objectID": "index.html#pasos-previos-al-taller",
+    "href": "index.html#pasos-previos-al-taller",
+    "title": "Bienvenidos",
+    "section": "Pasos Previos al Taller",
+    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este workshop, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud.\nMaterial de Lectura: Se recomienda revisar los siguientes recursos para familiarizarse con los conceptos básicos de machine learning:\n\nmaterial1\nmaterial2"
+  },
+  {
+    "objectID": "index.html#agenda-del-workshop",
+    "href": "index.html#agenda-del-workshop",
+    "title": "Bienvenidos",
+    "section": "Agenda del Workshop",
+    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nIntroducción a tidyverse/tidymodels\nPreprocesamiento de datos en R\nModelos de clasificación"
+  },
+  {
+    "objectID": "index.html#día-2",
+    "href": "index.html#día-2",
+    "title": "Bienvenidos",
+    "section": "Día 2",
+    "text": "Día 2\n\nÁrboles de decisión\nValidación cruzada\nRandom Forest\nBalance entre sesgo y varianza\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\nFrancisco Cardozo foc9@miami.edu"
+  },
+  {
+    "objectID": "index.html#día-1-1",
+    "href": "index.html#día-1-1",
+    "title": "Bienvenidos",
+    "section": "Día 1",
+    "text": "Día 1\n\n\nIntroducción\n\n\nTidyverse and TidyModels\n\n\nPreprocesamiento\n\n\nModelos de Clasificación"
+  },
+  {
+    "objectID": "index.html#día-2-1",
+    "href": "index.html#día-2-1",
+    "title": "Bienvenidos",
+    "section": "Día 2",
+    "text": "Día 2\n\n\nÁrboles de Decisión\n\n\nValidación Cruzada\n\n\nRandom Forest\n\n\nBalance entre sesgo y varianza"
   }
 ]
