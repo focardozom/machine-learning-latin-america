@@ -4,41 +4,384 @@
     "href": "index.html",
     "title": "Bienvenidos",
     "section": "",
-    "text": "Les damos la bienvenida al taller de la Universidad de los Andes, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página web, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado."
+    "text": "Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.\nEn este taller vamos a trabajar sobre tres ideas principales que son:\n\nEstimación empírica del error de generalizacio.\nDescomposición del error entre sesgo y varianza.\nRegularizacion."
   },
   {
     "objectID": "index.html#pasos-previos-al-taller",
     "href": "index.html#pasos-previos-al-taller",
     "title": "Bienvenidos",
     "section": "Pasos Previos al Taller",
-    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este workshop, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud.\nMaterial de Lectura: Se recomienda revisar los siguientes recursos para familiarizarse con los conceptos básicos de machine learning:\n\nmaterial1\nmaterial2"
+    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud.\nMaterial de Lectura: Se recomienda revisar los siguientes recursos para familiarizarse con los conceptos básicos de machine learning:\n\nmaterial1\nmaterial2"
   },
   {
     "objectID": "index.html#agenda-del-workshop",
     "href": "index.html#agenda-del-workshop",
     "title": "Bienvenidos",
     "section": "Agenda del Workshop",
-    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nIntroducción a tidyverse/tidymodels\nPreprocesamiento de datos en R\nModelos de clasificación"
+    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nEstimación de modelos\nÁrboles de decisión"
   },
   {
     "objectID": "index.html#día-2",
     "href": "index.html#día-2",
     "title": "Bienvenidos",
     "section": "Día 2",
-    "text": "Día 2\n\nÁrboles de decisión\nValidación cruzada\nRandom Forest\nBalance entre sesgo y varianza\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\nFrancisco Cardozo foc9@miami.edu"
+    "text": "Día 2\n\nRandom Forest\nRegresión\nRegularización\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\nFrancisco Cardozo\nfoc9@miami.edu"
   },
   {
     "objectID": "index.html#día-1-1",
     "href": "index.html#día-1-1",
     "title": "Bienvenidos",
     "section": "Día 1",
-    "text": "Día 1\n\n\nIntroducción\n\n\nTidyverse and TidyModels\n\n\nPreprocesamiento\n\n\nModelos de Clasificación"
+    "text": "Día 1\n\n\nIntroducción\n\n\nPreprocesamiento de datos\n\n\nEstimar modelos\n\n\nÁrboles de decisión"
   },
   {
     "objectID": "index.html#día-2-1",
     "href": "index.html#día-2-1",
     "title": "Bienvenidos",
     "section": "Día 2",
-    "text": "Día 2\n\n\nÁrboles de Decisión\n\n\nValidación Cruzada\n\n\nRandom Forest\n\n\nBalance entre sesgo y varianza"
+    "text": "Día 2\n\n\nRandom Forest\n\n\nRegresión\n\n\nRegularización"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#nuevos-rumbos",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#nuevos-rumbos",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Nuevos Rumbos",
+    "text": "Nuevos Rumbos\n\nIntroducción\n\nOrganización sin ánimo de lucro: Enfocada en la investigación y prevención de problemas sociales.\nÁreas de Interés: Consumo de sustancias, delincuencia, y violencia.\nAlcance Geográfico: Colombia y América Latina.\n\nFundación y Trayectoria\n\nEstablecida en Bogotá: Octubre de 2002.\nTrayectoria: Más de dos décadas comprometidas con la prevención y la investigación.\n\nColaboraciones y Alianzas\n\nOrganizaciones Locales: Alcaldías y gobernaciones, Ministerios de Salud y de Justicia, Instituto Colombiano de Bienestar Familiar.\nOrganizaciones Internacionales: Organización Panamericana de la Salud, Comisión Europea, CICAD/OEA.\nInstituciones Académicas: Universidades de New Jersey, Washington, y Miami.\n\nMás información aquí"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#base-de-datos",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#base-de-datos",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Base de datos",
+    "text": "Base de datos\n\n\nFactores de riesgo y de protección\n\nDisponibilidad percibida de drogas\nActitudes de la comunidad frente al consumo de drogas\nActitudes de los padres frente al consumo de drogas\nInvolucramiento en actividades comunitarias\n\nConsumo de alcohol y otras drogas\n\nConsumo de alcohol en la vida, 12 meses últimos 30 días\nHaber estado en una pelea\n\nCaracterísticas demográficas\n\nEdad\nSexo\nGrado"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#importar-la-base-de-datos",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#importar-la-base-de-datos",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Importar la base de datos",
+    "text": "Importar la base de datos\n\nlibrary(tidyverse)\nlos_datos &lt;- readRDS(\"DATA/base_NR.rds\") |&gt; as_tibble()\n\n\n\n\nreadRDS(): Esta función se utiliza para leer un archivo de datos en formato RDS. En este caso, se utiliza para leer el archivo “base_NR.rds” y almacenar los datos en un objeto llamado “los_datos”.\n|&gt;: Este operador se utiliza para encadenar varias operaciones juntas en una sola línea de código. En este caso, se utiliza para encadenar la función readRDS() a la función as_tibble().\nas_tibble(): Esta función se utiliza para convertir un objeto en un tibble, que es una versión mejorada de un data frame en R. En este caso, se utiliza para convertir el objeto “los_datos” en un tibble."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Explorar los datos",
+    "text": "Explorar los datos\n\nlos_datos %&gt;% \n  glimpse()\n\n\nglimpse(): Esta función se utiliza para imprimir una vista previa de los datos, incluyendo el tipo de datos de cada columna y las primeras filas de los datos. En este caso, se utiliza para explorar los datos almacenados en el objeto “los_datos”."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#select",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#select",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "select()",
+    "text": "select()\nEsta funcion selecciona las columnas que yo le indique de la base de datos.\nEn este ejemplo quiero una nueva base de datos que tenga la variable NHPROUD “Hay gente en mi barrio que se siente orgullosa de mí cuando hago algo bien”\n\nlos_datos |&gt; \n  select(NHPROUD) |&gt;\n  distinct()\n\n\nselect(): Esta función se utiliza para seleccionar columnas específicas de un data frame o tibble. En este caso, se utiliza para seleccionar la columna “NHPROUD” del objeto “los_datos”.\ndistinct(): Esta función se utiliza para eliminar filas duplicadas de un data frame o tibble. En este caso, se utiliza para eliminar filas duplicadas de la columna “NHPROUD” del objeto “los_datos”."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#select-1",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#select-1",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "select()",
+    "text": "select()\nEn este ejemplo voy a seleccionar las variables GENDER, AWRMAR, AWRALC, AWRCIG\n\nGENDER: Sexo\n\n“Qué tan mal ven la mayoría de los adultos de tu barrio (aquellos más cercanos a ti) el que los jóvenes de tu edad…”\n\nAWRMAR = fumen marihuana\nAWRALC = Consuman alcohol\nAWRCIG = fumen cigarrillo\n\n\nlos_datos |&gt; \n  select(GENDER, AWRMAR, AWRALC, AWRCIG)"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#mutate",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#mutate",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "mutate()",
+    "text": "mutate()\nEsta función crea una nueva variable -añade una nueva columna- o tranforma una variable que esté presente en la base de datos.\nMi idea es tranformar las tres variables del ejemplo anterior para tener un puntaje de las percepciones de los estudiantes sobre las creencias de los adultos frente al consumo de las sustancias.\n¿Qué debo hacer?\n\nSeleccionar las variables (opcional).\nTransformar el texto que hay en la base por valores: 1, 2, 3 y 4.\nCrear una nueva variable que calcule la media de los puntajes."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#mutate-1",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#mutate-1",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "mutate()",
+    "text": "mutate()\n\nlos_datos |&gt; \n  select(AWRMAR, AWRALC, AWRCIG) |&gt; \n  mutate(AWRMAR = case_when(\n    AWRMAR == \"Muy mal\" ~ 1,\n    AWRMAR == \"Mal\" ~ 2,\n    AWRMAR == \"Notan mal\" ~ 3,\n    AWRMAR == \"Para nada mal\" ~ 4,\n   TRUE ~ NA\n  ))\n\nlos_datos |&gt; \n  select(AWRMAR, AWRALC, AWRCIG) |&gt; \n  mutate(across(everything(), transformar_respuesta)) |&gt; \n   mutate(TOTAL = (AWRMAR + AWRALC + AWRCIG)/3)\n\n\n\n\n\n\n\nTip\n\n\n\n## Pro\ntransformar_respuesta &lt;- function(x) {\n  case_when(\n    x == \"Muy mal\" ~ 1,\n    x == \"Mal\" ~ 2,\n    x == \"Notan mal\" ~ 3,\n    x == \"Para nada mal\" ~ 4,\n    TRUE ~ NA\n  )\n}\n\nlos_datos |&gt; \n  select(AWRMAR, AWRALC, AWRCIG) |&gt; \n  mutate(across(everything(), transformar_respuesta)) |&gt; \n   mutate(TOTAL = (AWRMAR + AWRALC + AWRCIG)/3)"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#mutate-2",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#mutate-2",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "mutate()",
+    "text": "mutate()\n\ncase_when(): Esta función se utiliza para realizar una serie de comparaciones y asignar valores en función de las comparaciones. En este caso, se utiliza para asignar un valor numérico a la columna “AWRMAR” del objeto “los_datos” en función de los valores de texto que contiene.\nacross(): Esta función se utiliza para aplicar una función a varias columnas de un data frame o tibble. En este caso, se utiliza para aplicar la función transformar_respuesta() a todas las columnas del objeto “los_datos”.\neverything(): Esta función se utiliza para seleccionar todas las columnas de un data frame o tibble. En este caso, se utiliza para aplicar la función transformar_respuesta() a todas las columnas del objeto “los_datos”."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#filter",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#filter",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "filter()",
+    "text": "filter()\nfilter() es una funcion que permite seleccionar filas de la base de datos según una condición.\nSiguiendo con el ejemplo de qué tan mal los adultos del barrio ven el consumo de ciertas sustancias, voy a utilizar un filtro para seleccionar solamente las filas en las que los adultos respondieron “No tan mal” para el consumo de marihuana (AWRMAR)\n\nlos_datos |&gt; \n  select(GENDER, AWRMAR, AWRALC, AWRCIG) |&gt; \n  filter(AWRMAR == \"No tan mal\")\n\nCon este filtro puedo ver que en los primeros 10 casos, cuando un adulto juzga que no está tan mal fumar marihuana, el juicio de consumo de alcohol y cigarrillo parece seguir el mismo patrón.\nAhora miremos qué pasa si filtro por la opción de “Muy mal”\n\nlos_datos |&gt; \n  select(GENDER, AWRMAR, AWRALC, AWRCIG) |&gt; \n  filter(AWRMAR == \"Muy mal\")\n\nEs diferente al primer ejemplo, juzgar el consumo de marihuana como Muy mal parece también coincidir con el consumo de alcohol y cigarrillo.\n\nfilter(): Esta función se utiliza para seleccionar filas específicas de un data frame o tibble en función de una o varias condiciones. En este caso, se utiliza para seleccionar las filas del objeto “los_datos” en las que la columna “AWRMAR” es igual a “No tan mal”."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#summarise",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#summarise",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "summarise()",
+    "text": "summarise()\nEsta función permiten obtener medidas de resumen de la base de datos, como por ejemplo, la media, moda, frecuencias, desviación estándar, etc.\n\n# Para marihuana\n\nlos_datos |&gt; \n  select(GENDER, AWRMAR, AWRALC, AWRCIG) |&gt; \n  mutate(across(starts_with(\"A\"),transformar_respuesta)) |&gt; \n  summarise(mean_AWRMAR = mean(AWRMAR, na.rm = TRUE),\n            sd_AWRMAR = sd(AWRMAR, na.rm = TRUE), \n            max_AWRMAR = max(AWRMAR, na.rm = TRUE), \n            min_AWRMAR = min(AWRMAR, na.rm = TRUE))\n\n\nsummarise(): Esta función se utiliza para obtener medidas de resumen de un data frame o tibble. En este caso, se utiliza para obtener la media, la desviación estándar, el valor máximo y el valor mínimo de la columna “AWRMAR” del objeto “los_datos”.\nstarts_with(): Esta función se utiliza para seleccionar columnas que comienzan con un determinado prefijo. En este caso, se utiliza para seleccionar las columnas que comienzan con “A” del objeto “los_datos”."
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-1-1",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-1-1",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Explorar los datos 1",
+    "text": "Explorar los datos 1\n\nfactores_de_riesgo &lt;- c(\"CRPAD\", \"CRLNFD\", \"FRPFD\", \"FRPFM\", \"SRLCS\", \"PRFAD\", \n                        \"PRATA\", \"PRFUD\", \"PRIAP\", \"FPOPI\", \"FPRPI\", \"SPRPI\")\ndemograficas &lt;- c(\"YEAR\", \"GRADE\", \"GENDER\", \"AGE\")\nconsumo_alcohol &lt;- c(\"PYALC\")"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-2",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-2",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Explorar los datos 2",
+    "text": "Explorar los datos 2\n\nlos_datos %&gt;% \n  select(all_of(factores_de_riesgo), \n         all_of(demograficas), \n         all_of(consumo_alcohol)) %&gt;% \n  glimpse()"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-3",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-3",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Explorar los datos 3",
+    "text": "Explorar los datos 3\n\nmini_datos &lt;- los_datos %&gt;% \n  select(all_of(factores_de_riesgo), \n         all_of(demograficas), \n         all_of(consumo_alcohol))"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-4",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#explorar-los-datos-4",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Explorar los datos 4",
+    "text": "Explorar los datos 4\n\nmini_datos |&gt; \n  skimr::skim()"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#estimar-un-modelo-1",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#estimar-un-modelo-1",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Estimar un modelo",
+    "text": "Estimar un modelo\n\nlm(formula, data, …)\nstan_glm(formula, data, family= “gaussian”,…)\nglmnet(x=matrix, y=vector, family=“gaussian”,…)"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#especificar-el-modelo-en-tidymodels",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#especificar-el-modelo-en-tidymodels",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Especificar el modelo en tidymodels",
+    "text": "Especificar el modelo en tidymodels\nhttps://www.tidymodels.org/\n\nEspecificar el tipo de modelo\nDeclarar el tipo de outcome\n\nRegresión: Continua\nClasificación: multinomial, ordinal, binaria\n\n\n\nlibrary(tidymodels)\ntidymodels_prefer()\n\nlinear_reg() |&gt; \n  set_engine(\"lm\") \n\nlinear_reg() |&gt; \n    set_engine(\"glmnet\") \n    \nlinear_reg() |&gt;\n    set_engine(\"stan\")"
+  },
+  {
+    "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#ejemplo-1",
+    "href": "slides/2-procesamiento/slides-2-procesamiento.html#ejemplo-1",
+    "title": "2. Procesamiento de datos con tidyverse",
+    "section": "Ejemplo 1",
+    "text": "Ejemplo 1\nEstimar un modelo de regresión logistica para evaluar asociación entre el consumo de alcohol y los factores de riesgo\n\nmini_datos |&gt;\n    select(PYALC,factores_de_riesgo) |&gt;\n    table1::table1( ~ ., data=_)\n\n\nmini_datos |&gt;\n    select(PYALC,factores_de_riesgo) |&gt;\n  filter(!is.na(PYALC)) |&gt; \n    table1::table1( ~ . | PYALC, data=_)\n\nExplorar los datos gráficamente\n\nmini_datos |&gt; \n  group_by(PYALC) |&gt; \n  summarise(across(\"CRPAD\":\"SPRPI\", \\(x) mean(x, na.rm = TRUE))) |&gt; \n  pivot_longer(-PYALC) |&gt; \n  filter(!is.na(PYALC)) |&gt; \n  ggplot(aes(value, fct_reorder(name, value), fill = PYALC)) +\n  geom_col(alpha = 0.8, position = \"dodge\") +\n  scale_x_continuous() +\n  labs(x = \"Promedio\", y = NULL, fill = NULL)\n\n\nlibrary(tidymodels)\ntidymodels_prefer()\n\nlm_model &lt;-\n    logistic_reg() %&gt;% \n    set_engine(\"glm\", family=\"binomial\") |&gt;\n    set_mode(\"classification\")\n\n\nlm_results &lt;- lm_model |&gt;\n    fit(PYALC ~ ., data = mini_datos)\n\nlm_results\n\n\nlm_results |&gt; tidy() \n\nlm_results |&gt; glance()\n\n\nlm_results |&gt; tidy(exp=TRUE, conf.int=TRUE)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#parte-1.",
+    "href": "slides/3-modelos/slides-3-modelos.html#parte-1.",
+    "title": "3. Estimar un modelo",
+    "section": "Parte 1.",
+    "text": "Parte 1.\n\nEspecificar un modelo\nEstimar un modelo\nVer los resultados del modelo"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#parte-2",
+    "href": "slides/3-modelos/slides-3-modelos.html#parte-2",
+    "title": "3. Estimar un modelo",
+    "section": "Parte 2",
+    "text": "Parte 2\n\nDividir los datos\nEspecificar un modelo\nEstimar un modelo\nEvaluar el modelo\nEstimar un modelo mejor"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#estimar-un-modelo",
+    "href": "slides/3-modelos/slides-3-modelos.html#estimar-un-modelo",
+    "title": "3. Estimar un modelo",
+    "section": "Estimar un modelo",
+    "text": "Estimar un modelo\nHay muchas formas de estimar modelos en R\n\nlm(formula, data, …)\nstan_glm(formula, data, family= “gaussian”,…)\nglmnet(x=matrix, y=vector, family=“gaussian”,…)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo-en-tidymodels",
+    "href": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo-en-tidymodels",
+    "title": "3. Estimar un modelo",
+    "section": "Especificar el modelo en tidymodels",
+    "text": "Especificar el modelo en tidymodels\nTidymodels ofrece una sintaxis general para estimar los modelos\nhttps://www.tidymodels.org/\n\nEspecificar el tipo de modelo\nDeclarar el tipo de outcome\n\nRegresión para outcomes continuos\nClasificación: multinomial, ordinal, binaria\n\n\n\nlibrary(tidymodels)\n\ntidymodels_prefer()\n\nlinear_reg() |&gt; \n  set_engine(\"lm\") \n\nlinear_reg() |&gt; \n    set_engine(\"glmnet\") \n    \nlinear_reg() |&gt;\n    set_engine(\"stan\")"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo-en-tidymodels-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo-en-tidymodels-1",
+    "title": "3. Estimar un modelo",
+    "section": "Especificar el modelo en tidymodels",
+    "text": "Especificar el modelo en tidymodels\n\nlibrary(): This function is used to load a package in R. In this case, the tidymodels package is loaded.\ntidymodels_prefer(): This function is used to set the tidymodels package as the preferred package for modeling functions in R. This ensures that modeling functions from the tidymodels package are used by default instead of functions from other packages.\nlinear_reg(): This function is used to create a linear regression model specification in the tidymodels framework. This function returns a model specification object that can be further modified using other functions in the tidymodels framework.\nset_engine(): This function is used to set the computational engine for a model specification object. In this case, the engine is set to “lm” for the first linear_reg() call, “glmnet” for the second linear_reg() call, and “stan” for the third linear_reg() call. The “lm” engine is the standard linear regression engine in R, “glmnet” is a package that provides regularized linear regression models, and “stan” is a package that provides Bayesian linear regression models."
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#estimar-un-modelo-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#estimar-un-modelo-1",
+    "title": "3. Estimar un modelo",
+    "section": "Estimar un modelo",
+    "text": "Estimar un modelo\nEstimar un modelo de regresión logistica para evaluar la asociación entre el consumo de alcohol y los factores de riesgo\n\nmini_datos |&gt;\n    select(PYALC,factores_de_riesgo) |&gt;\n    table1::table1( ~ ., data=_)\n\n\nmini_datos |&gt;\n    select(PYALC,factores_de_riesgo) |&gt;\n  filter(!is.na(PYALC)) |&gt; \n    table1::table1( ~ . | PYALC, data=_)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#explorar-los-datos-visualmente",
+    "href": "slides/3-modelos/slides-3-modelos.html#explorar-los-datos-visualmente",
+    "title": "3. Estimar un modelo",
+    "section": "Explorar los datos visualmente",
+    "text": "Explorar los datos visualmente\n\nmini_datos |&gt; \n  group_by(PYALC) |&gt; \n  summarise(across(\"CRPAD\":\"SPRPI\", \\(x) mean(x, na.rm = TRUE))) |&gt; \n  pivot_longer(-PYALC) |&gt; \n  filter(!is.na(PYALC)) |&gt; \n  ggplot(aes(value, fct_reorder(name, value), fill = PYALC)) +\n  geom_col(alpha = 0.8, position = \"dodge\") +\n  scale_x_continuous() +\n  labs(x = \"Promedio\", y = NULL, fill = NULL)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo",
+    "href": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo",
+    "title": "3. Estimar un modelo",
+    "section": "1. Especificar el modelo",
+    "text": "1. Especificar el modelo\n\nlm_model &lt;-\n    logistic_reg() %&gt;% \n    set_engine(\"glm\", family=\"binomial\") |&gt;\n    set_mode(\"classification\")"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#estimar-el-modelo",
+    "href": "slides/3-modelos/slides-3-modelos.html#estimar-el-modelo",
+    "title": "3. Estimar un modelo",
+    "section": "2. Estimar el modelo",
+    "text": "2. Estimar el modelo\n\nlm_results &lt;- lm_model |&gt;\n    fit(PYALC ~ ., data = mini_datos)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#ver-los-resultados-del-modelo",
+    "href": "slides/3-modelos/slides-3-modelos.html#ver-los-resultados-del-modelo",
+    "title": "3. Estimar un modelo",
+    "section": "3. Ver los resultados del modelo",
+    "text": "3. Ver los resultados del modelo\n\nlm_results |&gt; tidy() \n\nlm_results |&gt; glance()\n\n\nlm_results |&gt; tidy(exp=TRUE, conf.int=TRUE)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#para-qué-necesitamos-los-datos",
+    "href": "slides/3-modelos/slides-3-modelos.html#para-qué-necesitamos-los-datos",
+    "title": "3. Estimar un modelo",
+    "section": "Para qué necesitamos los datos?",
+    "text": "Para qué necesitamos los datos?\nNecesitamos:\n- Estimar parametros\n- Seleccionar modelos\n- Sintonizar los modelos (tunning)\n- Evaluar los modelos\n¿Cómo gastarnos los datos de una forma que sea eficiente para todos estos pasos? (validación empírica)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#dividir-los-datos",
+    "href": "slides/3-modelos/slides-3-modelos.html#dividir-los-datos",
+    "title": "3. Estimar un modelo",
+    "section": "Dividir los datos",
+    "text": "Dividir los datos\n\nDividir los datos en dos conjuntos\n\nEntrenamiento\n\nLa mayoría de los datos (¿70%, 80%?)\nAquí se ajusta el modelo\n\nPrueba\n\nUn pequeño conjunto de datos\nAquí se evaluará el modelo final\n\n\n\nLos datos de prueba se utilizan una sola vez, si se utilizan más de una vez, se convierten en parte del proceso de entrenamiento.\n\n\n\n\n\n\nNote\n\n\nLa división de los datos se hace al nivel de unidad independiente de observación."
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#dividir-los-datos-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#dividir-los-datos-1",
+    "title": "3. Estimar un modelo",
+    "section": "Dividir los datos",
+    "text": "Dividir los datos\nCrear dos bases: 80% y 20%\n\nset.seed(1234)\n\nmini_datos &lt;- mini_datos |&gt; drop_na()\n\ndatos_divididos &lt;- initial_split(mini_datos, prop = 0.8, strata = \"PYALC\")\n\ndatos_entrenamiento &lt;- training(datos_divididos)\ndatos_prueba &lt;- testing(datos_divididos)\n\n\nLa opción strata es para que los datos de entrenamiento y prueba tengan la misma distribución de la variable PYALC\n\nA veces la selección aleatoria de la muestra es problemática, por ejemplo cuando hay una componente de tiempo en los datos. En este caso, se puede usar la función initial_time_split()."
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#dividir-los-datos-2",
+    "href": "slides/3-modelos/slides-3-modelos.html#dividir-los-datos-2",
+    "title": "3. Estimar un modelo",
+    "section": "Dividir los datos",
+    "text": "Dividir los datos\nset.seed(): se utiliza para establecer una semilla para la generación de números aleatorios en R. En este caso, se utiliza para establecer la semilla en 1234, lo que garantiza que los resultados sean reproducibles. Esto es especialmente importante cuando se trabaja con modelos de aprendizaje automático, ya que los resultados pueden variar según la semilla utilizada para la generación de números aleatorios.\ndrop_na(): Esta función se utiliza para eliminar filas con valores faltantes de un data frame o tibble. En este caso, se utiliza para eliminar filas con valores faltantes del objeto “mini_datos”.\ninitial_split(): Esta función se utiliza para dividir un data frame o tibble en conjuntos de entrenamiento y prueba. En este caso, se utiliza para dividir el objeto “mini_datos” en conjuntos de entrenamiento y prueba en una proporción de 80/20, y estratificando por la columna “PYALC”.\ntraining(): Esta función se utiliza para extraer el conjunto de entrenamiento de un objeto creado con la función initial_split(). En este caso, se utiliza para extraer el conjunto de entrenamiento del objeto “datos_divididos”.\ntesting(): Esta función se utiliza para extraer el conjunto de prueba de un objeto creado con la función initial_split(). En este caso, se utiliza para extraer el conjunto de prueba del objeto “datos_divididos”."
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#especificar-el-modelo-1",
+    "title": "3. Estimar un modelo",
+    "section": "1. Especificar el modelo",
+    "text": "1. Especificar el modelo\n\nlm_model &lt;-\n  logistic_reg() %&gt;%\n  set_engine(\"glm\", family = \"binomial\") |&gt;\n  set_mode(\"classification\")"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#estimar-el-modelo-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#estimar-el-modelo-1",
+    "title": "3. Estimar un modelo",
+    "section": "2. Estimar el modelo",
+    "text": "2. Estimar el modelo\n\nlm_results &lt;- lm_model |&gt;\n    fit(PYALC ~ ., data = datos_entrenamiento)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#ver-los-resultados-del-modelo-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#ver-los-resultados-del-modelo-1",
+    "title": "3. Estimar un modelo",
+    "section": "3. Ver los resultados del modelo",
+    "text": "3. Ver los resultados del modelo\n\nlm_results |&gt; tidy()\n\n\nlm_results |&gt; tidy(exp=TRUE, conf.int=TRUE)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#evaluar-el-modelo",
+    "href": "slides/3-modelos/slides-3-modelos.html#evaluar-el-modelo",
+    "title": "3. Estimar un modelo",
+    "section": "4. Evaluar el modelo",
+    "text": "4. Evaluar el modelo\n\npredecir_estos_valores &lt;- datos_entrenamiento %&gt;% \n    select(-PYALC) %&gt;% \n    slice(1:10)\n\npredict(lm_results, predecir_estos_valores)\n\n\npredict(lm_results, predecir_estos_valores, type=\"prob\")\n\n\nentrenamiento &lt;- datos_entrenamiento %&gt;% \n    select(-PYALC)\n\nprediccion &lt;- predict(lm_results, entrenamiento)\n\nresultados_prueba &lt;- cbind(prediccion, datos_entrenamiento) |&gt; \n  select(.pred_class, PYALC, everything()) |&gt; \n  tibble()"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#calcular-las-métricas",
+    "href": "slides/3-modelos/slides-3-modelos.html#calcular-las-métricas",
+    "title": "3. Estimar un modelo",
+    "section": "Calcular las métricas",
+    "text": "Calcular las métricas\n\nconf_mat(resultados_prueba, truth = PYALC,\n         estimate = .pred_class)\n\naccuracy(resultados_prueba, truth = PYALC,\n         estimate = .pred_class)\n\nsens(resultados_prueba, truth = PYALC,\n    estimate = .pred_class)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#calcular-las-métricas-1",
+    "href": "slides/3-modelos/slides-3-modelos.html#calcular-las-métricas-1",
+    "title": "3. Estimar un modelo",
+    "section": "Calcular las métricas",
+    "text": "Calcular las métricas\n\nspec(resultados_prueba, truth = PYALC,\n    estimate = .pred_class)\n\nprecision(resultados_prueba, truth = PYALC,\n    estimate = .pred_class)\n\nrecall(resultados_prueba, truth = PYALC,\n    estimate = .pred_class)\n\nkap(resultados_prueba, truth = PYALC,\n    estimate = .pred_class)"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#calcular-las-métricas-2",
+    "href": "slides/3-modelos/slides-3-modelos.html#calcular-las-métricas-2",
+    "title": "3. Estimar un modelo",
+    "section": "Calcular las métricas",
+    "text": "Calcular las métricas\n\ncustom_metrics &lt;- metric_set(accuracy, sens, spec, precision, recall, f_meas, kap, mcc)\n\ncustom_metrics(resultados_prueba,\n  truth = PYALC,\n  estimate = .pred_class\n)\n\nlm_metrics &lt;- custom_metrics(resultados_prueba,\n  truth = PYALC,\n  estimate = .pred_class\n) |&gt;\n  mutate(model = \"lm\")"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#tabla-de-métricas",
+    "href": "slides/3-modelos/slides-3-modelos.html#tabla-de-métricas",
+    "title": "3. Estimar un modelo",
+    "section": "Tabla de Métricas",
+    "text": "Tabla de Métricas\n\nlibrary(gt)\n\ncustom_metrics(resultados_prueba,\n  truth = PYALC,\n  estimate = .pred_class\n) |&gt; gt()"
+  },
+  {
+    "objectID": "slides/3-modelos/slides-3-modelos.html#área-bajo-la-curva",
+    "href": "slides/3-modelos/slides-3-modelos.html#área-bajo-la-curva",
+    "title": "3. Estimar un modelo",
+    "section": "Área bajo la curva",
+    "text": "Área bajo la curva\n\nprediccion_auc &lt;- predict(lm_results, entrenamiento, type = \"prob\")\n\nresultados_prueba_auc &lt;- cbind(prediccion_auc, datos_entrenamiento) |&gt;\n  tibble()\n\nroc_auc(resultados_prueba_auc,\n  truth = PYALC,\n  `.pred_No ha consumido`\n)\n\nroc_curve(resultados_prueba_auc,\n  truth = PYALC,\n  `.pred_No ha consumido`\n) |&gt; autoplot()"
+  },
+  {
+    "objectID": "slides/4-arboles/slides-4-arboles.html#árboles-de-decisión",
+    "href": "slides/4-arboles/slides-4-arboles.html#árboles-de-decisión",
+    "title": "4. Árboles de decisión",
+    "section": "Árboles de decisión",
+    "text": "Árboles de decisión\n(mejorar esto) El objetivo es tomar una serie de decisiones, basadas en las respuestas a cada pregunta, para llegar a una conclusión o predicción final. Cada nodo del árbol representa una característica de los datos que se están analizando y cada rama representa una posible respuesta a esa característica.\nLos árboles de decisión son útiles porque proporcionan una forma fácil de visualizar y entender cómo se toman las decisiones en un modelo"
+  },
+  {
+    "objectID": "slides/4-arboles/slides-4-arboles.html#arbusto",
+    "href": "slides/4-arboles/slides-4-arboles.html#arbusto",
+    "title": "4. Árboles de decisión",
+    "section": "Arbusto",
+    "text": "Arbusto\n\nmi_primer_arbol &lt;- los_datos |&gt; \n  select(\"PYALC\", \"GETALC\", \"GENDER\", \"GRADE\")\n\n\ntree_spec &lt;- \n  decision_tree() |&gt; \n  set_mode(\"classification\") |&gt; \n  set_engine(\"rpart\")\n\n\ntree_results &lt;- tree_spec |&gt;\n    fit(PYALC ~ ., data = mi_primer_arbol)\n\n\ncart_tree_fit &lt;- tree_results$fit\n\ntreemisc::tree_diagram(cart_tree_fit, roundint = FALSE)\n\nhttps://mlu-explain.github.io/decision-tree/\nÁrboles de clasificación y regresión (CART)\n\ntree_spec &lt;- \n  decision_tree() |&gt; \n  set_mode(\"classification\") |&gt; \n  set_engine(\"rpart\")\n\n\ntree_results &lt;- tree_spec |&gt;\n  fit(PYALC ~ ., data = datos_entrenamiento)\n\n\npredict(tree_results, predecir_estos_valores)\n\nentrenamiento &lt;- datos_entrenamiento %&gt;%\n  select(-PYALC)\n\nprediccion_tree &lt;- predict(tree_results, entrenamiento)\n\nresultados_prueba_tree &lt;- cbind(prediccion_tree, datos_entrenamiento) |&gt;\n  tibble()\n\n\ncustom_metrics(resultados_prueba_tree,\n  truth = PYALC,\n  estimate = .pred_class\n) |&gt;\n  mutate(model = \"tree\")\n\ntree_metrics &lt;- custom_metrics(resultados_prueba_tree,\n  truth = PYALC,\n  estimate = .pred_class\n) |&gt;\n  mutate(model = \"tree\")\n\nrbind(tree_metrics, lm_metrics) |&gt;\n  pivot_wider(names_from = model, values_from = .estimate)"
+  },
+  {
+    "objectID": "slides/4-arboles/slides-4-arboles.html#por-qué-es-malo",
+    "href": "slides/4-arboles/slides-4-arboles.html#por-qué-es-malo",
+    "title": "4. Árboles de decisión",
+    "section": "¿Por qué es malo?",
+    "text": "¿Por qué es malo?\n\ndatos_prueba2_out &lt;- \n  datos_prueba |&gt; \n    select(PYALC) \n  \nlm_predicciones &lt;- cbind(predict(lm_results, datos_prueba), datos_prueba2_out)|&gt; mutate(model=\"lm\")\n\ntree_predicciones &lt;- cbind(predict(tree_results, datos_prueba), datos_prueba2_out)|&gt; mutate(model=\"tree\")\n\ntree2_predicciones &lt;- cbind(predict(tree2_results, datos_prueba), datos_prueba2_out) |&gt;  mutate(model=\"tree2\")\n\nall_models &lt;- \nrbind(lm_predicciones, tree_predicciones, tree2_predicciones) \n\nall_models\n\n\nall_models2 &lt;- all_models |&gt; \n  group_split(model) %&gt;%\n   setNames(unique(all_models$model)) %&gt;%\n  map_dfr(., ~custom_metrics(.x,\n               truth = PYALC,\n               estimate = .pred_class), .id = \"names\")\n\nall_models2 |&gt; \n  pivot_wider(names_from = names, values_from = .estimate)"
+  },
+  {
+    "objectID": "slides/5-rforest/slides-5-forest.html#validación-cruzada",
+    "href": "slides/5-rforest/slides-5-forest.html#validación-cruzada",
+    "title": "5. Random Forest",
+    "section": "Validación Cruzada",
+    "text": "Validación Cruzada\nSupongamos que estamos trabajando en un problema de clasificación binaria y disponemos de un conjunto de datos con 1000 registros. Queremos evaluar el rendimiento de un modelo de regresión logística utilizando la validación cruzada k-fold.\nPaso a paso del proceso de k-fold cross-validation:\nDividir el conjunto de datos: Primero, dividimos el conjunto de datos en k subconjuntos (folds) de igual tamaño. En este ejemplo, elegimos k=10, lo que significa que dividimos el conjunto de datos en 10 subconjuntos de 100 registros cada uno.\nEntrenar y evaluar el modelo: Luego, realizamos lo siguiente para cada uno de los k subconjuntos:\n\nTomamos un subconjunto como el conjunto de prueba (validación) y los k-1 subconjuntos restantes como el conjunto de entrenamiento. Por ejemplo, en la primera iteración, usamos el primer subconjunto como conjunto de prueba y los subconjuntos del 2 al 10 como conjunto de entrenamiento.\nEntrenamos el modelo de regresión logística utilizando el conjunto de entrenamiento.\nEvaluamos el rendimiento del modelo en el conjunto de prueba utilizando una métrica adecuada, como la precisión, la exhaustividad o el F1-score. Anotamos el resultado de la métrica para esta iteración.\n\nPromediar los resultados: Después de completar las k iteraciones, calculamos la media de los resultados de la métrica para todas las iteraciones. Esta media nos proporciona una estimación más robusta del rendimiento del modelo, ya que el modelo ha sido evaluado en diferentes subconjuntos del conjunto de datos.\nhttps://scikit-learn.org/stable/modules/cross_validation.html https://www.tmwr.org/resampling.html"
+  },
+  {
+    "objectID": "slides/5-rforest/slides-5-forest.html#cart",
+    "href": "slides/5-rforest/slides-5-forest.html#cart",
+    "title": "5. Random Forest",
+    "section": "CART",
+    "text": "CART\nHay tres variables que están más relacionadas con no consumir alcohol.\n\ncrossvalidation &lt;-\n  vfold_cv(datos_entrenamiento, \n           v = 5,  # número de cajas\n           strata = \"PYALC\")\n\n\ntree_spec &lt;- \n  decision_tree(\n    cost_complexity = tune(), \n    tree_depth = tune(),\n    min_n = tune()\n  ) |&gt; \n  set_mode(\"classification\") |&gt; \n  set_engine(\"rpart\")\n\nCost_complexity (tmedida de complejidad alfa o parámetro de poda alfa):\nCost_complexity es un parámetro de regularización. Es una medida de la penalización que se aplica al árbol en función de su complejidad. Un valor más alto de cost_complexity implica una penalización más fuerte en la complejidad del árbol, lo que lleva a un árbol más pequeño y menos profundo. La idea es encontrar un valor óptimo de cost_complexity que equilibre la precisión y la complejidad del árbol, reduciendo tanto el sesgo como la varianza.\nTree_depth (profundidad del árbol):\nTree_depth se refiere a la longitud máxima del camino más largo desde la raíz hasta una hoja en un árbol de decisión. Un árbol más profundo es más complejo y puede capturar relaciones más complicadas en los datos. Sin embargo, un árbol demasiado profundo también puede ser propenso al sobreajuste, ya que puede adaptarse demasiado a las peculiaridades de los datos de entrenamiento.\nMin_n (mínimo número de muestras para dividir un nodo):\nMin_n es un parámetro que controla el número mínimo de datos requeridas para dividir un nodo en un árbol de decisión. Un valor más alto de min_n implica que el árbol será menos profundo, ya que se requerirán más muestras para realizar una división en cada nodo. Un valor más bajo de min_n permite que el árbol se divida más fácilmente y, por lo tanto, puede resultar en un árbol más complejo y profundo.\n\ntree_grid &lt;- grid_regular(cost_complexity(range = c(-10L, -1L)), \n                          tree_depth (range = c(5L, 10L)), \n                          min_n(range = c(5L, 30L)))\n\n\ndoParallel::registerDoParallel()\n\nset.seed(345)\ntree_rs &lt;-\n  tune_grid(\n    tree_spec,\n    PYALC ~ .,\n    resamples = crossvalidation,\n    grid = tree_grid,\n    metrics = metric_set(accuracy, roc_auc, sensitivity, specificity)\n  )\n\ndoParallel::stopImplicitCluster()\n\n\nshow_best(tree_rs)\n\nautoplot(tree_rs)\n\n\nsimpler_tree &lt;- select_best(tree_rs, min_n, metric = \"accuracy\")\n\nfinal_tree &lt;- finalize_model(tree_spec, simpler_tree)\n\n\nfinal_fit &lt;- fit(final_tree, PYALC ~ ., datos_entrenamiento)\n\n\nfinal_cart &lt;- last_fit(final_tree, PYALC ~ ., datos_divididos,\n  metrics = metric_set(accuracy, roc_auc, sensitivity, specificity)\n)\n\n\ncollect_metrics(final_cart)\n\n\ncart_trained &lt;- \n  final_cart  |&gt; extract_fit_parsnip()\n\ncart_tree_fit &lt;- cart_trained$fit\n\ntreemisc::tree_diagram(cart_tree_fit, roundint=FALSE)"
+  },
+  {
+    "objectID": "slides/5-rforest/slides-5-forest.html#random-forest",
+    "href": "slides/5-rforest/slides-5-forest.html#random-forest",
+    "title": "5. Random Forest",
+    "section": "Random Forest",
+    "text": "Random Forest\n\nNúmero de predictores que se usan para cada árbol (mtry)\nNúmero de árboles (trees)\nProfundidad de los árboles (min_n)\n\nRandom Forest\n\nrf_spec &lt;- \n  rand_forest()  |&gt; \n  set_mode(\"classification\") |&gt; \n  set_engine(\"ranger\", importance = \"permutation\")\n\n\nrf_results &lt;- rf_spec |&gt; \nfit(PYALC ~ ., data = datos_entrenamiento)\n\nlibrary(vip)\nimportance_plot_rf &lt;- \n  rf_results |&gt; \n  vip() +\n  ggtitle(\"Random Forest\")\n\n\nrf_predicciones &lt;- predict(rf_results, entrenamiento)\n\nresultados_rf &lt;- cbind(rf_predicciones,datos_entrenamiento) |&gt; \n  tibble()\n\nrf_metrics &lt;- custom_metrics(resultados_rf,\n               truth = PYALC,\n               estimate = .pred_class) |&gt;\n  mutate(model=\"rf\")\n\nrbind(rf_metrics, tree2_metrics, tree_metrics, lm_metrics) |&gt; \n  pivot_wider(names_from = model, values_from = .estimate)\n\n\nrf_predicciones &lt;- cbind(predict(rf_results, datos_prueba), datos_prueba2_out) |&gt;  mutate(model=\"rf\")\n\nall_models &lt;- \nrbind(lm_predicciones, rf_predicciones,tree_predicciones, tree2_predicciones) \n\n\nall_models2 &lt;- all_models |&gt; \n  group_split(model) %&gt;%\n   setNames(unique(all_models$model)) %&gt;%\n  map_dfr(., ~custom_metrics(.x,\n               truth = PYALC,\n               estimate = .pred_class), .id = \"names\")\nall_models2 |&gt; \n  pivot_wider(names_from = names, values_from = .estimate)"
+  },
+  {
+    "objectID": "slides/5-rforest/slides-5-forest.html#sesgo-y-varianza",
+    "href": "slides/5-rforest/slides-5-forest.html#sesgo-y-varianza",
+    "title": "5. Random Forest",
+    "section": "Sesgo y varianza",
+    "text": "Sesgo y varianza\nEstos dos conceptos son cruciales para entender el equilibrio entre la complejidad del modelo y su capacidad para generalizar a nuevos datos.\nSesgo (Bias): a. Definición: El sesgo es la diferencia entre la predicción promedio de nuestro modelo y el valor verdadero que intentamos predecir.El sesgo, en términos estadísticos, se refiere a la diferencia sistemática entre la esperanza (o promedio) de las estimaciones que produce un estimador y el valor real del parámetro que se desea estimar. Un modelo con alta varianza es muy sensible a pequeñas variaciones en los datos de entrenamiento, lo que puede resultar en un sobreajuste. Es decir, el modelo se ajusta muy bien a los datos de entrenamiento, pero tiene un rendimiento deficiente en datos no vistos o de prueba.\n\nEjemplo: Un modelo de regresión lineal simple podría tener un alto sesgo si los datos reales tienen una relación no lineal.\nImplicaciones: Un modelo con alto sesgo es demasiado simple y no captura la estructura subyacente de los datos. Esto conduce a un bajo rendimiento en el conjunto de entrenamiento y prueba.\n\nVarianza (Variance): a. Definición: La varianza es la cantidad de variabilidad en las predicciones del modelo para un punto de datos dado. b. Ejemplo: Un modelo de árbol de decisión muy profundo podría tener alta varianza, ya que es muy sensible a pequeñas variaciones en los datos de entrenamiento. c. Implicaciones: Un modelo con alta varianza tiende a sobreajustarse a los datos de entrenamiento, lo que resulta en un buen rendimiento en el conjunto de entrenamiento pero un bajo rendimiento en el conjunto de prueba.\nEl objetivo en Machine Learning es equilibrar el sesgo y la varianza para minimizar el error de predicción general en el modelo a. Objetivo: Encontrar un equilibrio entre sesgo y varianza que minimice el error total de predicción. b. Estrategias: Seleccionar un modelo con la complejidad adecuada, usar técnicas de regularización, y validar el modelo con conjuntos de datos de entrenamiento y prueba separados.\nFormas de disminur el sesgo\nAumentar la complejidad del modelo: Un modelo más complejo puede capturar mejor la estructura subyacente de los datos. Por ejemplo, en lugar de utilizar una regresión lineal simple, podrías probar una regresión polinomial o un modelo de árbol de decisión.\nAñadir más variables: A veces, el sesgo puede ser el resultado de no tener en cuenta variables importantes que influyen en la variable objetivo. Añadir más variables relevantes puede ayudar a reducir el sesgo del modelo.\nUtilizar técnicas de “ingeniería de predictores”: Transformar o combinar las variables existentes para crear nuevas características puede ayudar a capturar mejor la relación entre las variables de entrada y salida. Por ejemplo, si estás trabajando en un problema de predicción de precios de viviendas, podrías crear una nueva característica que represente la relación entre el tamaño de la casa y el número de habitaciones.\nAumentar el tamaño del conjunto de datos: Si tu conjunto de datos es pequeño o no es representativo de la población general, es posible que el modelo tenga un sesgo alto. Aumentar el tamaño del conjunto de datos y asegurarte de que es representativo puede ayudar a reducir el sesgo.\nUtilizar ensembles de modelos: Combinar varios modelos en un ensemble puede ayudar a reducir el sesgo, ya que cada modelo puede capturar diferentes aspectos de la relación entre las variables de entrada y salida. Por ejemplo, puedes utilizar métodos de ensemble como Bagging, Boosting o Stacking."
+  },
+  {
+    "objectID": "slides/5-rforest/slides-5-forest.html#técnicas-para-reducir-la-varianza",
+    "href": "slides/5-rforest/slides-5-forest.html#técnicas-para-reducir-la-varianza",
+    "title": "5. Random Forest",
+    "section": "Técnicas para reducir la varianza",
+    "text": "Técnicas para reducir la varianza\nReducir la complejidad del modelo: Un modelo más simple tiende a tener una menor varianza y es menos propenso al sobreajuste. Por ejemplo, podrías limitar la profundidad de un árbol de decisión.\nUtilizar regularización: La regularización es una técnica que añade una penalización a los coeficientes del modelo para evitar que se ajusten demasiado a los datos de entrenamiento.Por ejemplo, regularización L1 (Lasso) y L2 (Ridge).\nAumentar el tamaño del conjunto de datos: Si dispones de más datos, el modelo será menos sensible a pequeñas variaciones en los datos de entrenamiento y tendrá una menor varianza.\nEliminar características ruidosas: Si tu modelo incluye características que no están relacionadas con la variable objetivo o que contienen mucho ruido, estas pueden aumentar la varianza del modelo. Realizar un análisis de importancia de características y eliminar las características poco importantes puede ayudar a reducir la varianza.\nValidación cruzada (cross-validation): Utilizar la validación cruzada, como k-fold cross-validation, te permite evaluar el rendimiento del modelo en diferentes subconjuntos del conjunto de datos de entrenamiento. Esto puede ayudarte a identificar si el modelo está sobreajustando los datos y ajustar la complejidad del modelo en consecuencia.\nUtilizar diferentes modelos: Combinar varios modelos en un ensemble puede ayudar a reducir la varianza, ya que la variabilidad de cada modelo individual se promedia. Por ejemplo, puedes utilizar métodos de ensemble como Bagging (Bootstrap Aggregating) o Random Forest, que promedian las predicciones de múltiples árboles de decisión entrenados en subconjuntos aleatorios de los datos.\n\n\n\nMachine Learning"
   }
 ]
