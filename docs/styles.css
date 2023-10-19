@@ -1,1 +1,82 @@
 /* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Variables */
+:root {
+  --pumpkin-50: #fff7ed;
+  --pumpkin-100: #feecd6;
+  --pumpkin-200: #fcd5ac;
+  --pumpkin-300: #fab777;
+  --pumpkin-400: #f78e40;
+  --pumpkin-500: #f47321;
+  --pumpkin-600: #e55611;
+  --pumpkin-700: #be3f10;
+  --pumpkin-800: #973315;
+  --pumpkin-900: #7a2c14;
+  --pumpkin-950: #421408;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: var(--pumpkin-500); /* Gradient from 400 to 100 */
+}
+
+.navbar-title {
+  font-weight: bold;
+  color: var(--pumpkin-900);  /* Color for the title */
+}
+
+/* Variables */
+:root {
+  --pumpkin-50: #fff7ed;
+  --pumpkin-100: #feecd6;
+  --pumpkin-200: #fcd5ac;
+  --pumpkin-300: #fab777;
+  --pumpkin-400: #f78e40;
+  --pumpkin-500: #f47321;
+  --pumpkin-600: #e55611;
+  --pumpkin-700: #be3f10;
+  --pumpkin-800: #973315;
+  --pumpkin-900: #7a2c14;
+  --pumpkin-950: #421408;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: var(--pumpkin-500); /* Gradient from 400 to 100 */
+}
+
+.navbar-title {
+  font-weight: bold;
+  color: var(--pumpkin-900);  /* Color for the title */
+}
+
+/* Global hyperlink styles */
+a {
+    color: var(--pumpkin-600);
+    text-decoration: none;  /* Optional: remove underline */
+  }
+
+  #TOC {
+    color: var(--pumpkin-900);
+  }
+
+#TOC a:hover {
+  color: var(--pumpkin-900);
+
+}#TOC a:hover
+{   
+  text-decoration: none;
+  color: var(--pumpkin-900);
+}
+
+a:hover
+{   
+  text-decoration: none;
+  color: var(--pumpkin-900);
+}
