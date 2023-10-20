@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bienvenidos",
     "section": "",
-    "text": "Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.\nEn este taller vamos a trabajar sobre tres ideas principales que son:\n\nEstimación empírica del error de generalizacio.\nDescomposición del error entre sesgo y varianza.\nRegularizacion."
+    "text": "Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.\nEn este taller vamos a trabajar sobre tres ideas principales que son:\n\nEstimación empírica del error de generalización.\nSeparar del error entre sesgo y varianza.\nRegularización."
   },
   {
     "objectID": "index.html#pasos-previos-al-taller",
@@ -18,14 +18,7 @@
     "href": "index.html#agenda-del-workshop",
     "title": "Bienvenidos",
     "section": "Agenda del Workshop",
-    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nEstimación de modelos\nÁrboles de decisión"
-  },
-  {
-    "objectID": "index.html#día-2",
-    "href": "index.html#día-2",
-    "title": "Bienvenidos",
-    "section": "Día 2",
-    "text": "Día 2\n\nRandom Forest\nRegresión\nRegularización\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\nFrancisco Cardozo\nfoc9@miami.edu"
+    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nRegresión logística\nÁrboles de decisión\n\n\n\nDía 2\n\nRandom Forest\nRegresión lineal\nRegularización\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\nFrancisco Cardozo\nfoc9@miami.edu"
   },
   {
     "objectID": "index.html#día-1-1",
@@ -40,6 +33,20 @@
     "title": "Bienvenidos",
     "section": "Día 2",
     "text": "Día 2\n\n\nRandom Forest\n\n\nRegresión\n\n\nRegularización"
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "Bienvenidos",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\nEste workshop es posible gracias a la existencia de herramientas esenciales y de libre acceso, así como varias colaboraciones. Esta página web fue desarrollada en Quarto, el análisis estadístico y de modelado se realizó mediante tidymodels. Agradecemos al Institute for Data Science and Computing de la Universidad de Miami, a la Corporación Nuevos Rumbos y a la Universidad de los Andes por su apoyo y experticia en las áreas de prevención, análisis de datos y metodologías de investigación. Si encuentras algún aspecto que pueda ser mejorado, por favor envíe un issue en nuestro repositorio de GitHub."
+  },
+  {
+    "objectID": "index.html#licencia",
+    "href": "index.html#licencia",
+    "title": "Bienvenidos",
+    "section": "Licencia",
+    "text": "Licencia\n\nUnless otherwise noted (i.e. not an original creation and reused from another source), these educational materials are licensed under Creative Commons Attribution CC BY-SA 4.0 DEED."
   },
   {
     "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#nuevos-rumbos",
@@ -383,5 +390,47 @@
     "title": "5. Random Forest",
     "section": "Técnicas para reducir la varianza",
     "text": "Técnicas para reducir la varianza\nReducir la complejidad del modelo: Un modelo más simple tiende a tener una menor varianza y es menos propenso al sobreajuste. Por ejemplo, podrías limitar la profundidad de un árbol de decisión.\nUtilizar regularización: La regularización es una técnica que añade una penalización a los coeficientes del modelo para evitar que se ajusten demasiado a los datos de entrenamiento.Por ejemplo, regularización L1 (Lasso) y L2 (Ridge).\nAumentar el tamaño del conjunto de datos: Si dispones de más datos, el modelo será menos sensible a pequeñas variaciones en los datos de entrenamiento y tendrá una menor varianza.\nEliminar características ruidosas: Si tu modelo incluye características que no están relacionadas con la variable objetivo o que contienen mucho ruido, estas pueden aumentar la varianza del modelo. Realizar un análisis de importancia de características y eliminar las características poco importantes puede ayudar a reducir la varianza.\nValidación cruzada (cross-validation): Utilizar la validación cruzada, como k-fold cross-validation, te permite evaluar el rendimiento del modelo en diferentes subconjuntos del conjunto de datos de entrenamiento. Esto puede ayudarte a identificar si el modelo está sobreajustando los datos y ajustar la complejidad del modelo en consecuencia.\nUtilizar diferentes modelos: Combinar varios modelos en un ensemble puede ayudar a reducir la varianza, ya que la variabilidad de cada modelo individual se promedia. Por ejemplo, puedes utilizar métodos de ensemble como Bagging (Bootstrap Aggregating) o Random Forest, que promedian las predicciones de múltiples árboles de decisión entrenados en subconjuntos aleatorios de los datos.\n\n\n\nMachine Learning"
+  },
+  {
+    "objectID": "COC/coc.html",
+    "href": "COC/coc.html",
+    "title": "Código de Conducta",
+    "section": "",
+    "text": "Los asistentes a este taller estamos comprometidos con la creación de un entorno inclusivo, respetuoso y seguro para todas las personas involucradas. Este Código de Conducta establece nuestras expectativas sobre el comportamiento de todos los participantes.\n\n\n\n\nRespeto Mutuo: Trata a todos con respeto y cortesía.\nInclusividad: Promueve un ambiente inclusivo y acogedor para todos los participantes.\nColaboración: Fomenta la colaboración y el trabajo en equipo.\nEscucha Activa: Presta atención a las opiniones y preguntas de otros, y da retroalimentación constructiva.\n\n\n\n\n\nDiscriminación o Acoso: Cualquier forma de discriminación o acoso.\nLenguaje Ofensivo: El uso de lenguaje inapropiado, obsceno o insultante.\nIntimidación: Amenazas, acoso, o cualquier otra forma de intimidación.\n\n\n\n\nCualquier participante que viole este Código de Conducta podría enfrentar medidas que van desde advertencias hasta la expulsión del evento, a discreción de los organizadores.\n\n\n\nSi eres víctima o testigo de un comportamiento inaceptable, informa a los organizadores lo más pronto posible."
+  },
+  {
+    "objectID": "COC/coc.html#introducción",
+    "href": "COC/coc.html#introducción",
+    "title": "Código de Conducta",
+    "section": "",
+    "text": "Los asistentes a este taller estamos comprometidos con la creación de un entorno inclusivo, respetuoso y seguro para todas las personas involucradas. Este Código de Conducta establece nuestras expectativas sobre el comportamiento de todos los participantes."
+  },
+  {
+    "objectID": "COC/coc.html#comportamiento-esperado",
+    "href": "COC/coc.html#comportamiento-esperado",
+    "title": "Código de Conducta",
+    "section": "",
+    "text": "Respeto Mutuo: Trata a todos con respeto y cortesía.\nInclusividad: Promueve un ambiente inclusivo y acogedor para todos los participantes.\nColaboración: Fomenta la colaboración y el trabajo en equipo.\nEscucha Activa: Presta atención a las opiniones y preguntas de otros, y da retroalimentación constructiva."
+  },
+  {
+    "objectID": "COC/coc.html#comportamientos-inaceptables",
+    "href": "COC/coc.html#comportamientos-inaceptables",
+    "title": "Código de Conducta",
+    "section": "",
+    "text": "Discriminación o Acoso: Cualquier forma de discriminación o acoso.\nLenguaje Ofensivo: El uso de lenguaje inapropiado, obsceno o insultante.\nIntimidación: Amenazas, acoso, o cualquier otra forma de intimidación."
+  },
+  {
+    "objectID": "COC/coc.html#medidas-disciplinarias",
+    "href": "COC/coc.html#medidas-disciplinarias",
+    "title": "Código de Conducta",
+    "section": "",
+    "text": "Cualquier participante que viole este Código de Conducta podría enfrentar medidas que van desde advertencias hasta la expulsión del evento, a discreción de los organizadores."
+  },
+  {
+    "objectID": "COC/coc.html#informes",
+    "href": "COC/coc.html#informes",
+    "title": "Código de Conducta",
+    "section": "",
+    "text": "Si eres víctima o testigo de un comportamiento inaceptable, informa a los organizadores lo más pronto posible."
   }
 ]

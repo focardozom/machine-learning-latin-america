@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Técnicas de Clasificación y Regresión</title>
+<title>Técnicas de Clasificación y Regresión – coc</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,7 +59,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -69,10 +69,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/um_logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/um_logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Técnicas de Clasificación y Regresión</span>
     </a>
   </div>
@@ -109,25 +109,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bienvenidos" id="toc-bienvenidos" class="nav-link active" data-scroll-target="#bienvenidos">Bienvenidos</a></li>
-  <li><a href="#instrucciones" id="toc-instrucciones" class="nav-link" data-scroll-target="#instrucciones">Instrucciones</a>
+  <li><a href="#código-de-conducta" id="toc-código-de-conducta" class="nav-link active" data-scroll-target="#código-de-conducta">Código de Conducta</a>
   <ul class="collapse">
-  <li><a href="#pasos-previos-al-taller" id="toc-pasos-previos-al-taller" class="nav-link" data-scroll-target="#pasos-previos-al-taller">Pasos Previos al Taller</a></li>
-  <li><a href="#agenda-del-workshop" id="toc-agenda-del-workshop" class="nav-link" data-scroll-target="#agenda-del-workshop">Agenda del Workshop</a>
-  <ul class="collapse">
-  <li><a href="#día-1" id="toc-día-1" class="nav-link" data-scroll-target="#día-1">Día 1</a></li>
-  <li><a href="#día-2" id="toc-día-2" class="nav-link" data-scroll-target="#día-2">Día 2</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#diapositivas" id="toc-diapositivas" class="nav-link" data-scroll-target="#diapositivas">Diapositivas</a>
-  <ul class="collapse">
-  <li><a href="#día-1-1" id="toc-día-1-1" class="nav-link" data-scroll-target="#día-1-1">Día 1</a></li>
-  <li><a href="#día-2-1" id="toc-día-2-1" class="nav-link" data-scroll-target="#día-2-1">Día 2</a></li>
-  </ul></li>
-  <li><a href="#código-de-conducta" id="toc-código-de-conducta" class="nav-link" data-scroll-target="#código-de-conducta">Código de Conducta</a>
-  <ul class="collapse">
-  
-  
+  <li><a href="#introducción" id="toc-introducción" class="nav-link" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#comportamiento-esperado" id="toc-comportamiento-esperado" class="nav-link" data-scroll-target="#comportamiento-esperado">Comportamiento Esperado</a></li>
+  <li><a href="#comportamientos-inaceptables" id="toc-comportamientos-inaceptables" class="nav-link" data-scroll-target="#comportamientos-inaceptables">Comportamientos Inaceptables</a></li>
+  <li><a href="#medidas-disciplinarias" id="toc-medidas-disciplinarias" class="nav-link" data-scroll-target="#medidas-disciplinarias">Medidas Disciplinarias</a></li>
+  <li><a href="#informes" id="toc-informes" class="nav-link" data-scroll-target="#informes">Informes</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -137,104 +125,42 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="bienvenidos" class="level1">
-<h1>Bienvenidos</h1>
-<p>Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.</p>
-<p>En este taller vamos a trabajar sobre tres ideas principales que son:</p>
-<ol type="1">
-<li>Estimación empírica del error de generalización.</li>
-<li>Separar del error entre sesgo y varianza.</li>
-<li>Regularización.</li>
-</ol>
-</section>
-<section id="instrucciones" class="level1">
-<h1>Instrucciones</h1>
-<section id="pasos-previos-al-taller" class="level2">
-<h2 class="anchored" data-anchor-id="pasos-previos-al-taller">Pasos Previos al Taller</h2>
-<p>Para aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:</p>
-<ol type="1">
-<li><p><strong>Creación de una cuenta en Posit Cloud</strong>: Si aún no tienes una, por favor, crea una cuenta gratuita en <a href="https://posit.cloud/" target="_blank">Posit Cloud</a>.</p></li>
-<li><p><strong>Material de Lectura</strong>: Se recomienda revisar los siguientes recursos para familiarizarse con los conceptos básicos de machine learning:</p>
-<ul>
-<li><a href="" target="_blank">material1</a></li>
-<li><a href="" target="_blank">material2</a></li>
-</ul></li>
-</ol>
-</section>
-<section id="agenda-del-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="agenda-del-workshop">Agenda del Workshop</h2>
-<section id="día-1" class="level3">
-<h3 class="anchored" data-anchor-id="día-1">Día 1</h3>
-<ul>
-<li>Introducción a Machine Learning</li>
-<li>Procesamiento de datos</li>
-<li>Regresión logística</li>
-<li>Árboles de decisión</li>
-</ul>
-</section>
-<section id="día-2" class="level3">
-<h3 class="anchored" data-anchor-id="día-2">Día 2</h3>
-<ul>
-<li>Random Forest</li>
-<li>Regresión lineal</li>
-<li>Regularización</li>
-</ul>
-<p>Esperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.</p>
-<p>Francisco Cardozo</p>
-<p>foc9@miami.edu</p>
-</section>
-</section>
-</section>
-<section id="diapositivas" class="level1">
-<h1>Diapositivas</h1>
-<section id="día-1-1" class="level2">
-<h2 class="anchored" data-anchor-id="día-1-1">Día 1</h2>
-<ul>
-<li><ol type="1">
-<li><a href="slides/1-introduccion/slides-1-introduccion.html" target="_blank">Introducción</a></li>
-</ol></li>
-<li><ol start="2" type="1">
-<li><a href="slides/2-procesamiento/slides-2-procesamiento.html" target="_blank">Preprocesamiento de datos</a></li>
-</ol></li>
-<li><ol start="3" type="1">
-<li><a href="slides/3-modelos/3-modelos/slides-3-modelos.html" target="_blank">Estimar modelos</a></li>
-</ol></li>
-<li><ol start="4" type="1">
-<li><a href="slides/4-arboles/slides-4-arboles.html" target="_blank">Árboles de decisión</a></li>
-</ol></li>
-</ul>
-</section>
-<section id="día-2-1" class="level2">
-<h2 class="anchored" data-anchor-id="día-2-1">Día 2</h2>
-<ul>
-<li><ol start="5" type="1">
-<li><a href="slides/5-rforest/slides-5-forest.html" target="_blank">Random Forest</a></li>
-</ol></li>
-<li><ol start="6" type="1">
-<li><a href="slides/6-regresion/slides-6-regresion.html" target="_blank">Regresión</a></li>
-</ol></li>
-<li><ol start="7" type="1">
-<li><a href="slides/7-regularizacion/slides-regularizacion.html" target="_blank">Regularización</a></li>
-</ol></li>
-</ul>
-</section>
-</section>
 <section id="código-de-conducta" class="level1">
 <h1>Código de Conducta</h1>
-<p>Aqui esta nuestro Código de Conducta <a href="COC/coc.html" target="_blank">COC</a>. En resumen Este workshop está comprometido con un entorno inclusivo, respetuoso y seguro para todos los participantes. Se espera que los asistentes promuevan la inclusión, el respeto mutuo y la colaboración, evitando comportamientos inaceptables como la discriminación, el acoso o el uso de lenguaje ofensivo. Cualquier violación a estas normas puede resultar en medidas disciplinarias, que van desde advertencias hasta la expulsión del evento.</p>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<p>Los asistentes a este taller estamos comprometidos con la creación de un entorno inclusivo, respetuoso y seguro para todas las personas involucradas. Este Código de Conducta establece nuestras expectativas sobre el comportamiento de todos los participantes.</p>
+</section>
+<section id="comportamiento-esperado" class="level2">
+<h2 class="anchored" data-anchor-id="comportamiento-esperado">Comportamiento Esperado</h2>
+<ol type="1">
+<li><strong>Respeto Mutuo</strong>: Trata a todos con respeto y cortesía.</li>
+<li><strong>Inclusividad</strong>: Promueve un ambiente inclusivo y acogedor para todos los participantes.</li>
+<li><strong>Colaboración</strong>: Fomenta la colaboración y el trabajo en equipo.</li>
+<li><strong>Escucha Activa</strong>: Presta atención a las opiniones y preguntas de otros, y da retroalimentación constructiva.</li>
+</ol>
+</section>
+<section id="comportamientos-inaceptables" class="level2">
+<h2 class="anchored" data-anchor-id="comportamientos-inaceptables">Comportamientos Inaceptables</h2>
+<ol type="1">
+<li><strong>Discriminación o Acoso</strong>: Cualquier forma de discriminación o acoso.</li>
+<li><strong>Lenguaje Ofensivo</strong>: El uso de lenguaje inapropiado, obsceno o insultante.</li>
+<li><strong>Intimidación</strong>: Amenazas, acoso, o cualquier otra forma de intimidación.</li>
+</ol>
+</section>
+<section id="medidas-disciplinarias" class="level2">
+<h2 class="anchored" data-anchor-id="medidas-disciplinarias">Medidas Disciplinarias</h2>
+<p>Cualquier participante que viole este Código de Conducta podría enfrentar medidas que van desde advertencias hasta la expulsión del evento, a discreción de los organizadores.</p>
+</section>
+<section id="informes" class="level2">
+<h2 class="anchored" data-anchor-id="informes">Informes</h2>
+<p>Si eres víctima o testigo de un comportamiento inaceptable, informa a los organizadores lo más pronto posible.</p>
 
 
 </section>
+</section>
 
-<div id="quarto-appendix" class="default"><section id="acknowledgments" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Acknowledgments</h2><div class="quarto-appendix-contents">
-
-<p>Este workshop es posible gracias a la existencia de herramientas esenciales y de libre acceso, así como varias colaboraciones. Esta página web fue desarrollada en <a href="https://quarto.org"><code>Quarto</code></a>, el análisis estadístico y de modelado se realizó mediante <a href="https://www.tidymodels.org"><code>tidymodels</code></a>. Agradecemos al Institute for Data Science and Computing de la Universidad de Miami, a la Corporación Nuevos Rumbos y a la Universidad de los Andes por su apoyo y experticia en las áreas de prevención, análisis de datos y metodologías de investigación. Si encuentras algún aspecto que pueda ser mejorado, por favor envíe un issue en nuestro repositorio de <a href="https://github.com/focardozom/machine-learning-latin-america">GitHub</a>.</p>
-</div></section><section id="licencia" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Licencia</h2><div class="quarto-appendix-contents">
-
-<p>Unless otherwise noted (i.e.&nbsp;not an original creation and reused from another source), these educational materials are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-SA 4.0 DEED</a>.</p>
-
-
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
