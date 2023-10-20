@@ -1,181 +1,79 @@
+/* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-
-  
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Source+Code+Pro&display=swap');
 
 /* Global Styles */
-
 body {
-
-font-family: 'Roboto Condensed', sans-serif;
-
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 1.1rem;
+  color: black;
+  background-color: #fffeff;
 }
-
-  
-
-/* Variables */
-
-:root {
-
---pumpkin-50: #fff7ed;
-
---pumpkin-100: #feecd6;
-
---pumpkin-200: #fcd5ac;
-
---pumpkin-300: #fab777;
-
---pumpkin-400: #f78e40;
-
---pumpkin-500: #f47321;
-
---pumpkin-600: #e55611;
-
---pumpkin-700: #be3f10;
-
---pumpkin-800: #973315;
-
---pumpkin-900: #7a2c14;
-
---pumpkin-950: #421408;
-
-}
-
-  
 
 /* Navigation Bar */
-
 .navbar {
-
-background: var(--pumpkin-500); /* Gradient from 400 to 100 */
-
+  background: #010B12; /* Gradient from 400 to 100 */
 }
-
-  
 
 .navbar-title {
-
-font-weight: bold;
-
-color: var(--pumpkin-900); /* Color for the title */
-
+  font-weight: bold;
+  font-size: 2.7rem;
+  color: #39FF13;
+  font-family: 'Acme', sans-serif;
 }
 
-  
-
-/* Variables */
-
-:root {
-
---pumpkin-50: #fff7ed;
-
---pumpkin-100: #feecd6;
-
---pumpkin-200: #fcd5ac;
-
---pumpkin-300: #fab777;
-
---pumpkin-400: #f78e40;
-
---pumpkin-500: #f47321;
-
---pumpkin-600: #e55611;
-
---pumpkin-700: #be3f10;
-
---pumpkin-800: #973315;
-
---pumpkin-900: #7a2c14;
-
---pumpkin-950: #421408;
-
---bs-primary: #421408;
-
---bs-blue: #421408;
-
---mermaid-label-fg-color: #421408;
-
-}
-
-  
-
-/* Navigation Bar */
-
-.navbar {
-
-background: var(--pumpkin-500); /* Gradient from 400 to 100 */
-
-}
-
-  
-
-.navbar-title {
-
-font-weight: bold;
-
-color: var(--pumpkin-900); /* Color for the title */
-
-}
-
-  
-
-/* Global hyperlink styles */
-
+/* Links */
 a {
-
-color: var(--pumpkin-600);
-
+  color: #041E42;
 }
 
-  
-
-a:hover
-
-{
-
-color: var(--pumpkin-800);
-
+a:hover {
+  color: #0C8900;
 }
 
-  
-
-.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-
-border-left: 1px solid var(--pumpkin-500);
-
-color: var(--pumpkin-500) !important;
-
+/* Table of Contents */
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  border-left: 1px solid #0C8900;
+  color: #0C8900 !important;
 }
 
-  
-
-.sidebar nav[role=doc-toc] ul>li>a:hover, .sidebar nav[role=doc-toc] ul>li>ul>li>a:hover {
-
-color: var(--pumpkin-500) !important;
-
+.sidebar nav[role=doc-toc] ul>li>a:hover,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a:hover {
+  color: #0C8900 !important;
 }
 
-  
-
+/* Headings */
 h1 {
-
-font-family: 'Ubuntu', sans-serif;
-
-font-weight: 500;
-
-font-size: 2rem;
-
+  font-family: 'Acme', sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 2.3rem;
 }
-
-  
 
 h2 {
+  font-family: 'Acme', sans-serif;
+  color: #060505;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
 
-font-family: 'Ubuntu', sans-serif;
+h3 {
+  font-family: 'Acme', sans-serif;
+  color: #191f22;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 
-font-weight: 500;
+.navbar-dark .navbar-nav .nav-link {
+    color: #39FF13;
+}
 
-font-size: 1.2rem;
-
+/* Appendix */
+.appendix {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: #fffeff;
 }

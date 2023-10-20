@@ -4,28 +4,28 @@
     "href": "index.html",
     "title": "Bienvenidos",
     "section": "",
-    "text": "Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.\nEn este taller vamos a trabajar sobre tres ideas principales que son:\n\nEstimación empírica del error de generalización.\nSeparar del error entre sesgo y varianza.\nRegularización."
+    "text": "Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.\nEn este taller vamos a trabajar sobre tres ideas principales:\n\nEstimación empírica del error de generalización.\nSeparar del error entre sesgo y varianza.\nRegularización."
   },
   {
     "objectID": "index.html#pasos-previos-al-taller",
     "href": "index.html#pasos-previos-al-taller",
     "title": "Bienvenidos",
     "section": "Pasos Previos al Taller",
-    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud.\nMaterial de Lectura: Se recomienda revisar los siguientes recursos para familiarizarse con los conceptos básicos de machine learning:\n\nmaterial1\nmaterial2"
+    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud."
   },
   {
     "objectID": "index.html#agenda-del-workshop",
     "href": "index.html#agenda-del-workshop",
     "title": "Bienvenidos",
     "section": "Agenda del Workshop",
-    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nRegresión logística\nÁrboles de decisión\n\n\n\nDía 2\n\nRandom Forest\nRegresión lineal\nRegularización\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\nFrancisco Cardozo\nfoc9@miami.edu"
+    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nRegresión logística\nÁrboles de decisión\n\n\n\nDía 2\n\nRandom Forest\nRegresión lineal\nRegularización\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\n\n\nOrganizadores\n\nFrancisco Cardozo (foc9@miami.edu)\nMaría Fernanda Reyes\nEric C. Brown"
   },
   {
     "objectID": "index.html#día-1-1",
     "href": "index.html#día-1-1",
     "title": "Bienvenidos",
     "section": "Día 1",
-    "text": "Día 1\n\n\nIntroducción\n\n\nPreprocesamiento de datos\n\n\nEstimar modelos\n\n\nÁrboles de decisión"
+    "text": "Día 1\n\n\nIntroducción\n\n\nPreprocesamiento de datos\n\n\nRegresión logística\n\n\nÁrboles de decisión"
   },
   {
     "objectID": "index.html#día-2-1",
@@ -33,20 +33,6 @@
     "title": "Bienvenidos",
     "section": "Día 2",
     "text": "Día 2\n\n\nRandom Forest\n\n\nRegresión\n\n\nRegularización"
-  },
-  {
-    "objectID": "index.html#acknowledgments",
-    "href": "index.html#acknowledgments",
-    "title": "Bienvenidos",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\n\nEste workshop es posible gracias a la existencia de herramientas esenciales y de libre acceso, así como varias colaboraciones. Esta página web fue desarrollada en Quarto, el análisis estadístico y de modelado se realizó mediante tidymodels. Agradecemos al Institute for Data Science and Computing de la Universidad de Miami, a la Corporación Nuevos Rumbos y a la Universidad de los Andes por su apoyo y experticia en las áreas de prevención, análisis de datos y metodologías de investigación. Si encuentras algún aspecto que pueda ser mejorado, por favor envíe un issue en nuestro repositorio de GitHub."
-  },
-  {
-    "objectID": "index.html#licencia",
-    "href": "index.html#licencia",
-    "title": "Bienvenidos",
-    "section": "Licencia",
-    "text": "Licencia\n\nUnless otherwise noted (i.e. not an original creation and reused from another source), these educational materials are licensed under Creative Commons Attribution CC BY-SA 4.0 DEED."
   },
   {
     "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#nuevos-rumbos",

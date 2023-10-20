@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Técnicas de Clasificación y Regresión</title>
+<title>Workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,11 +69,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/um_logo.png" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Técnicas de Clasificación y Regresión</span>
+    <span class="navbar-title">Workshops</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -117,6 +114,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#día-1" id="toc-día-1" class="nav-link" data-scroll-target="#día-1">Día 1</a></li>
   <li><a href="#día-2" id="toc-día-2" class="nav-link" data-scroll-target="#día-2">Día 2</a></li>
+  <li><a href="#organizadores" id="toc-organizadores" class="nav-link" data-scroll-target="#organizadores">Organizadores</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#diapositivas" id="toc-diapositivas" class="nav-link" data-scroll-target="#diapositivas">Diapositivas</a>
@@ -124,11 +122,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#día-1-1" id="toc-día-1-1" class="nav-link" data-scroll-target="#día-1-1">Día 1</a></li>
   <li><a href="#día-2-1" id="toc-día-2-1" class="nav-link" data-scroll-target="#día-2-1">Día 2</a></li>
   </ul></li>
-  <li><a href="#código-de-conducta" id="toc-código-de-conducta" class="nav-link" data-scroll-target="#código-de-conducta">Código de Conducta</a>
-  <ul class="collapse">
+  <li><a href="#código-de-comportamiento" id="toc-código-de-comportamiento" class="nav-link" data-scroll-target="#código-de-comportamiento">Código de Comportamiento</a></li>
   
   
-  </ul></li>
+  <li><a href="#talleres-pasados" id="toc-talleres-pasados" class="nav-link" data-scroll-target="#talleres-pasados">Talleres pasados</a></li>
   </ul>
 </nav>
     </div>
@@ -140,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="bienvenidos" class="level1">
 <h1>Bienvenidos</h1>
 <p>Les damos la bienvenida a este taller, donde nos enfocaremos en algunas de las técnicas de aprendizaje automático más utilizadas en la actualidad. En esta página, hemos compilado todos los materiales necesarios para cada sesión, incluidas las diapositivas. Esperamos que estos recursos diseñados especialmente para ustedes sean de su agrado.</p>
-<p>En este taller vamos a trabajar sobre tres ideas principales que son:</p>
+<p>En este taller vamos a trabajar sobre tres ideas principales:</p>
 <ol type="1">
 <li>Estimación empírica del error de generalización.</li>
 <li>Separar del error entre sesgo y varianza.</li>
@@ -153,12 +150,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="pasos-previos-al-taller">Pasos Previos al Taller</h2>
 <p>Para aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:</p>
 <ol type="1">
-<li><p><strong>Creación de una cuenta en Posit Cloud</strong>: Si aún no tienes una, por favor, crea una cuenta gratuita en <a href="https://posit.cloud/" target="_blank">Posit Cloud</a>.</p></li>
-<li><p><strong>Material de Lectura</strong>: Se recomienda revisar los siguientes recursos para familiarizarse con los conceptos básicos de machine learning:</p>
-<ul>
-<li><a href="" target="_blank">material1</a></li>
-<li><a href="" target="_blank">material2</a></li>
-</ul></li>
+<li><strong>Creación de una cuenta en Posit Cloud</strong>: Si aún no tienes una, por favor, crea una cuenta gratuita en <a href="https://posit.cloud/" target="_blank">Posit Cloud</a>.</li>
 </ol>
 </section>
 <section id="agenda-del-workshop" class="level2">
@@ -180,8 +172,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Regularización</li>
 </ul>
 <p>Esperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.</p>
-<p>Francisco Cardozo</p>
-<p>foc9@miami.edu</p>
+</section>
+<section id="organizadores" class="level3">
+<h3 class="anchored" data-anchor-id="organizadores">Organizadores</h3>
+<ul>
+<li>Francisco Cardozo (foc9@miami.edu)</li>
+<li>María Fernanda Reyes</li>
+<li>Eric C. Brown</li>
+</ul>
 </section>
 </section>
 </section>
@@ -197,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="slides/2-procesamiento/slides-2-procesamiento.html" target="_blank">Preprocesamiento de datos</a></li>
 </ol></li>
 <li><ol start="3" type="1">
-<li><a href="slides/3-modelos/3-modelos/slides-3-modelos.html" target="_blank">Estimar modelos</a></li>
+<li><a href="slides/3-modelos/3-modelos/slides-3-modelos.html" target="_blank">Regresión logística</a></li>
 </ol></li>
 <li><ol start="4" type="1">
 <li><a href="slides/4-arboles/slides-4-arboles.html" target="_blank">Árboles de decisión</a></li>
@@ -219,21 +217,29 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="código-de-conducta" class="level1">
-<h1>Código de Conducta</h1>
-<p>Aqui esta nuestro Código de Conducta <a href="COC/coc.html" target="_blank">COC</a>. En resumen Este workshop está comprometido con un entorno inclusivo, respetuoso y seguro para todos los participantes. Se espera que los asistentes promuevan la inclusión, el respeto mutuo y la colaboración, evitando comportamientos inaceptables como la discriminación, el acoso o el uso de lenguaje ofensivo. Cualquier violación a estas normas puede resultar en medidas disciplinarias, que van desde advertencias hasta la expulsión del evento.</p>
+<section id="código-de-comportamiento" class="level1">
+<h1>Código de Comportamiento</h1>
+<p>Este es nuestro <a href="COC/coc.html" target="_blank">Código de Comportamiento</a>. En resumen los asistentes al workshop se compromenten a generar y respetar un entorno inclusivo y seguro para todos los participantes. No se esperan comportamientos inaceptables como la discriminación y el acoso. Cualquier violación a estas normas puede resultar en medidas que van desde advertencias hasta la expulsión del evento.</p>
+</section>
+
+
+<section id="talleres-pasados" class="level1">
+<h1>Talleres pasados</h1>
+<ul>
+<li>Taller en la Universidad de los Andes octubre 2023</li>
+<li>Taller en La Universidad Nacional octubre 2023</li>
+<li>Taller en el Seminario Internacional de educación Noviembre 2023</li>
+</ul>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section id="acknowledgments" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Acknowledgments</h2><div class="quarto-appendix-contents">
+<div id="quarto-appendix" class="default"><section id="agradecimiento" class="level1 appendix"><h2 class="anchored quarto-appendix-heading">Agradecimiento</h2><div class="quarto-appendix-contents">
 
-<p>Este workshop es posible gracias a la existencia de herramientas esenciales y de libre acceso, así como varias colaboraciones. Esta página web fue desarrollada en <a href="https://quarto.org"><code>Quarto</code></a>, el análisis estadístico y de modelado se realizó mediante <a href="https://www.tidymodels.org"><code>tidymodels</code></a>. Agradecemos al Institute for Data Science and Computing de la Universidad de Miami, a la Corporación Nuevos Rumbos y a la Universidad de los Andes por su apoyo y experticia en las áreas de prevención, análisis de datos y metodologías de investigación. Si encuentras algún aspecto que pueda ser mejorado, por favor envíe un issue en nuestro repositorio de <a href="https://github.com/focardozom/machine-learning-latin-america">GitHub</a>.</p>
-</div></section><section id="licencia" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Licencia</h2><div class="quarto-appendix-contents">
+<p>Este workshop es posible gracias la Universidad de Miami, especialmente al grupo <a href="https://www.publichealth.med.miami.edu/research/research-labs/perla-lab/index.html">PERLA</a>, el <a href="https://idsc.miami.edu">Frost Institute for Data Science and Computing</a>, <a href="https://uniandes.edu.co/en">la Universidad de los Andes</a>, la <a href="https://nuevosrumbos.org">Corporación Nuevos Rumbos</a> y el <a href="https://www.icfes.gov.co/en/">El Instituto Colombiano para la Evaluación de la Educación (ICFES),</a>. Si encuentras algún aspecto que pueda ser mejorado, por favor envíe un issue en nuestro repositorio de <a href="https://github.com/focardozom/machine-learning-latin-america">GitHub</a>.</p>
+</div></section><section id="licencia" class="level1 appendix"><h2 class="anchored quarto-appendix-heading">Licencia</h2><div class="quarto-appendix-contents">
 
-<p>Unless otherwise noted (i.e.&nbsp;not an original creation and reused from another source), these educational materials are licensed under Creative Commons Attribution <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-SA 4.0 DEED</a>.</p>
-
-
+<p>Estos materiales han sido desarrollados bajo la siguiente licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-SA 4.0 DEED</a>.</p>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
