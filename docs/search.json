@@ -11,14 +11,14 @@
     "href": "index.html#pasos-previos-al-taller",
     "title": "Bienvenidos",
     "section": "Pasos Previos al Taller",
-    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud."
+    "text": "Pasos Previos al Taller\nPara aprovechar al máximo este taller, es recomendable completar las siguientes tareas antes de la fecha del evento:\n\nCreación de una cuenta en Posit Cloud: Si aún no tienes una, por favor, crea una cuenta gratuita en Posit Cloud.\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos."
   },
   {
     "objectID": "index.html#agenda-del-workshop",
     "href": "index.html#agenda-del-workshop",
     "title": "Bienvenidos",
     "section": "Agenda del Workshop",
-    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nRegresión logística\nÁrboles de decisión\n\n\n\nDía 2\n\nRandom Forest\nRegresión lineal\nRegularización\n\nEsperamos que este taller sea una experiencia enriquecedora para todos. Si tienen preguntas o inquietudes previas al evento, no duden en contactarnos.\n\n\nOrganizadores\n\nFrancisco Cardozo (foc9@miami.edu)\nMaría Fernanda Reyes\nEric C. Brown"
+    "text": "Agenda del Workshop\n\nDía 1\n\nIntroducción a Machine Learning\nProcesamiento de datos\nRegresión logística\nÁrboles de decisión\n\n\n\nDía 2\n\nRandom Forest\nRegresión lineal\nRegularización\n\n\n\nOrganizadores\n\nFrancisco Cardozo (foc9@miami.edu)\nMaría Fernanda Reyes\nEric C. Brown"
   },
   {
     "objectID": "index.html#día-1-1",
@@ -33,6 +33,90 @@
     "title": "Bienvenidos",
     "section": "Día 2",
     "text": "Día 2\n\n\nRandom Forest\n\n\nRegresión\n\n\nRegularización"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#temas",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#temas",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Temas",
+    "text": "Temas\n\n\n\n\nTipos de modelos\n\nDescriptivo\nInferencial\nPredictivo\n\nMachine Learning - Supervised\n\nClasificación\nRegresión - Unsupervised\nClustering\n\nEquilibrio entre la varianza y el sesgo\nValidación Cruzada\n\n\n\nEvaluación de los Modelos - Separación entrenamiento y prueba - Remuestreo\n\nLeave One Out\nK-Fold\nBoostraping"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#tipos-de-modelos",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#tipos-de-modelos",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Tipos de modelos",
+    "text": "Tipos de modelos\n\nDescriptivosInferencialPredictivo\n\n\n\nDescribir las características de una base de datos\nVisualizar los datos\nResumir los datos\nGenerar hipótesis\n\n\n\n\nEstimar la probabilidad de que ocurra un evento\nProducir una estimación de un parámetro poblacional\nProbar una hipótesis\nIdea predeterminada y se prueba\nValor p, intervalo de confianza\n\n\n\n\nAnticipar el valor de una variable\nAplicar una regla a un evento que no ha ocurrido\nMayor interés en la predicción que en la inferencia\nPuede ser que no importe el mecanismo"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#otra-clasificación-es",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#otra-clasificación-es",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Otra clasificación es",
+    "text": "Otra clasificación es\n\nModelos explicativos\nModelos predictivos"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#machine-learning",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#machine-learning",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Machine Learning",
+    "text": "Machine Learning\nMuchos modelos de machine learning son predictivos por ejemplo:\n\nk-nearest neighbors\nÁrboles de decisión\nRandom Forests\nSupport Vector Machines"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#machine-learning-1",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#machine-learning-1",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nMachine LearningUnsupervisedSupervised\n\n\n\n\n\nNo hay una variable de resultado\n\nComponentes principales\n\n\n\n\nHay una variable de resultado\n\nRegresión: variable de resultado continua\nClasificación: variable de resultado categórica"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#cuál-es-el-proceso-del-análisis-de-datos",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#cuál-es-el-proceso-del-análisis-de-datos",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Cuál es el proceso del análisis de datos",
+    "text": "Cuál es el proceso del análisis de datos\n\n\n¿La creación del modelo es el primer paso?\n¿Limpiar los datos?\n¿Explorar los datos?\n¿Cómo se van a evaluar los modelos?"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#gráfico-del-proceso-de-análisis-de-datos",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#gráfico-del-proceso-de-análisis-de-datos",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Gráfico del proceso de análisis de datos",
+    "text": "Gráfico del proceso de análisis de datos"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#proceso-de-análisis-de-datos",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#proceso-de-análisis-de-datos",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Proceso de análisis de datos",
+    "text": "Proceso de análisis de datos\n\n\n\nExplorar los datos (EDA)\n“Ingeniería de variables”- crear nuevas variables\nAjustar-sintonizar los modelos\nEvaluar los modelos"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#tres-ideas-importantes",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#tres-ideas-importantes",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Tres ideas importantes",
+    "text": "Tres ideas importantes\n\n\nUtilizar la muestra para estimar el error de generalización\nDescomponer el error en tres fuentes: varianza, sesgo y ruido.\nUtilizar recursos computacionales"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#cuál-es-el-mejor-sofware-para-hacer-esto",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#cuál-es-el-mejor-sofware-para-hacer-esto",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "¿Cuál es el mejor sofware para hacer esto?",
+    "text": "¿Cuál es el mejor sofware para hacer esto?\n\n\n\nPython\nR\nJulia\nMatlab\nProgramas\n\nMplus\nStata\nSAS\nSPSS"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#tidyverse",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#tidyverse",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\n\nggplot2 - para visualización de gráficos\ndplyr - para el procesamiento de datos\ntidyr - para la transformación de datos en formato “tidy” (ordenado)\nreadr - para la lectura de datos en diferentes formatos (CSV, TSV, etc.)\npurrr - para la programación funcional\ntibble - para la creación de data frames en formato “tidy”\nstringr - para la manipulación de cadenas de texto\nforcats- para la manipulación de factores"
+  },
+  {
+    "objectID": "slides/1-introduccion/slides-1-introduccion.html#tidyverse-1",
+    "href": "slides/1-introduccion/slides-1-introduccion.html#tidyverse-1",
+    "title": "1 - Introducción a Machine Learning in tidymodels",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\nEstilo\n\nPipe\nnombre_de_los_objetos\nuso de las comillas\nretorna un objeto de la misma clase\nprogramación funcional\n\n\n\n\n\nMachine Learning"
   },
   {
     "objectID": "slides/2-procesamiento/slides-2-procesamiento.html#nuevos-rumbos",
@@ -376,6 +460,27 @@
     "title": "5. Random Forest",
     "section": "Técnicas para reducir la varianza",
     "text": "Técnicas para reducir la varianza\nReducir la complejidad del modelo: Un modelo más simple tiende a tener una menor varianza y es menos propenso al sobreajuste. Por ejemplo, podrías limitar la profundidad de un árbol de decisión.\nUtilizar regularización: La regularización es una técnica que añade una penalización a los coeficientes del modelo para evitar que se ajusten demasiado a los datos de entrenamiento.Por ejemplo, regularización L1 (Lasso) y L2 (Ridge).\nAumentar el tamaño del conjunto de datos: Si dispones de más datos, el modelo será menos sensible a pequeñas variaciones en los datos de entrenamiento y tendrá una menor varianza.\nEliminar características ruidosas: Si tu modelo incluye características que no están relacionadas con la variable objetivo o que contienen mucho ruido, estas pueden aumentar la varianza del modelo. Realizar un análisis de importancia de características y eliminar las características poco importantes puede ayudar a reducir la varianza.\nValidación cruzada (cross-validation): Utilizar la validación cruzada, como k-fold cross-validation, te permite evaluar el rendimiento del modelo en diferentes subconjuntos del conjunto de datos de entrenamiento. Esto puede ayudarte a identificar si el modelo está sobreajustando los datos y ajustar la complejidad del modelo en consecuencia.\nUtilizar diferentes modelos: Combinar varios modelos en un ensemble puede ayudar a reducir la varianza, ya que la variabilidad de cada modelo individual se promedia. Por ejemplo, puedes utilizar métodos de ensemble como Bagging (Bootstrap Aggregating) o Random Forest, que promedian las predicciones de múltiples árboles de decisión entrenados en subconjuntos aleatorios de los datos.\n\n\n\nMachine Learning"
+  },
+  {
+    "objectID": "slides/6-regresion/slides-6-regresion.html#sesgo-y-varianza",
+    "href": "slides/6-regresion/slides-6-regresion.html#sesgo-y-varianza",
+    "title": "6. Regresión",
+    "section": "Sesgo y varianza",
+    "text": "Sesgo y varianza\nEstos dos conceptos son cruciales para entender el equilibrio entre la complejidad del modelo y su capacidad para generalizar a nuevos datos.\nSesgo (Bias): a. Definición: El sesgo es la diferencia entre la predicción promedio de nuestro modelo y el valor verdadero que intentamos predecir.El sesgo, en términos estadísticos, se refiere a la diferencia sistemática entre la esperanza (o promedio) de las estimaciones que produce un estimador y el valor real del parámetro que se desea estimar. Un modelo con alta varianza es muy sensible a pequeñas variaciones en los datos de entrenamiento, lo que puede resultar en un sobreajuste. Es decir, el modelo se ajusta muy bien a los datos de entrenamiento, pero tiene un rendimiento deficiente en datos no vistos o de prueba.\n\nEjemplo: Un modelo de regresión lineal simple podría tener un alto sesgo si los datos reales tienen una relación no lineal.\nImplicaciones: Un modelo con alto sesgo es demasiado simple y no captura la estructura subyacente de los datos. Esto conduce a un bajo rendimiento en el conjunto de entrenamiento y prueba.\n\nVarianza (Variance): a. Definición: La varianza es la cantidad de variabilidad en las predicciones del modelo para un punto de datos dado. b. Ejemplo: Un modelo de árbol de decisión muy profundo podría tener alta varianza, ya que es muy sensible a pequeñas variaciones en los datos de entrenamiento. c. Implicaciones: Un modelo con alta varianza tiende a sobreajustarse a los datos de entrenamiento, lo que resulta en un buen rendimiento en el conjunto de entrenamiento pero un bajo rendimiento en el conjunto de prueba.\nEl objetivo en Machine Learning es equilibrar el sesgo y la varianza para minimizar el error de predicción general en el modelo\n\nObjetivo: Encontrar un equilibrio entre sesgo y varianza que minimice el error total de predicción.\nEstrategias: Seleccionar un modelo con la complejidad adecuada, usar técnicas de regularización, y validar el modelo con conjuntos de datos de entrenamiento y prueba separados.\n\nFormas de disminur el sesgo\nAumentar la complejidad del modelo: Un modelo más complejo puede capturar mejor la estructura subyacente de los datos. Por ejemplo, en lugar de utilizar una regresión lineal simple, podrías probar una regresión polinomial o un modelo de árbol de decisión.\nAñadir más variables: A veces, el sesgo puede ser el resultado de no tener en cuenta variables importantes que influyen en la variable objetivo. Añadir más variables relevantes puede ayudar a reducir el sesgo del modelo.\nUtilizar técnicas de “ingeniería de predictores”: Transformar o combinar las variables existentes para crear nuevas características puede ayudar a capturar mejor la relación entre las variables de entrada y salida. Por ejemplo, si estás trabajando en un problema de predicción de precios de viviendas, podrías crear una nueva característica que represente la relación entre el tamaño de la casa y el número de habitaciones.\nAumentar el tamaño del conjunto de datos: Si tu conjunto de datos es pequeño o no es representativo de la población general, es posible que el modelo tenga un sesgo alto. Aumentar el tamaño del conjunto de datos y asegurarte de que es representativo puede ayudar a reducir el sesgo.\nUtilizar ensembles de modelos: Combinar varios modelos en un ensemble puede ayudar a reducir el sesgo, ya que cada modelo puede capturar diferentes aspectos de la relación entre las variables de entrada y salida. Por ejemplo, puedes utilizar métodos de ensemble como Bagging, Boosting o Stacking."
+  },
+  {
+    "objectID": "slides/6-regresion/slides-6-regresion.html#técnicas-para-reducir-la-varianza",
+    "href": "slides/6-regresion/slides-6-regresion.html#técnicas-para-reducir-la-varianza",
+    "title": "6. Regresión",
+    "section": "Técnicas para reducir la varianza",
+    "text": "Técnicas para reducir la varianza\nReducir la complejidad del modelo: Un modelo más simple tiende a tener una menor varianza y es menos propenso al sobreajuste. Por ejemplo, podrías limitar la profundidad de un árbol de decisión.\nUtilizar regularización: La regularización es una técnica que añade una penalización a los coeficientes del modelo para evitar que se ajusten demasiado a los datos de entrenamiento.Por ejemplo, regularización L1 (Lasso) y L2 (Ridge).\nAumentar el tamaño del conjunto de datos: Si dispones de más datos, el modelo será menos sensible a pequeñas variaciones en los datos de entrenamiento y tendrá una menor varianza.\nEliminar características ruidosas: Si tu modelo incluye características que no están relacionadas con la variable objetivo o que contienen mucho ruido, estas pueden aumentar la varianza del modelo. Realizar un análisis de importancia de características y eliminar las características poco importantes puede ayudar a reducir la varianza.\n\nValidación cruzada (cross-validation): Utilizar la validación cruzada, como k-fold cross-validation, te permite evaluar el rendimiento del modelo en diferentes subconjuntos del conjunto de datos de entrenamiento. Esto puede ayudarte a identificar si el modelo está sobreajustando los datos y ajustar la complejidad del modelo en consecuencia.\nUtilizar diferentes modelos: Combinar varios modelos en un ensemble puede ayudar a reducir la varianza, ya que la variabilidad de cada modelo individual se promedia. Por ejemplo, puedes utilizar métodos de ensemble como Bagging (Bootstrap Aggregating) o Random Forest, que promedian las predicciones de múltiples árboles de decisión entrenados en subconjuntos aleatorios de los datos.\n\n\n\nMachine Learning"
+  },
+  {
+    "objectID": "slides/7-regularizacion/slides-7-regularizacion.html#usar-recetas",
+    "href": "slides/7-regularizacion/slides-7-regularizacion.html#usar-recetas",
+    "title": "7. Regularización",
+    "section": "Usar recetas",
+    "text": "Usar recetas\nConstruir la receta:\nrecipe(punt_matematicas_11 ~ ., data = datos_entrenamiento) crea un objeto recipe que especifica que se va a predecir la variable punt_matematicas_11 usando todas las otras variables (.) en los datos de entrenamiento datos_entrenamiento.\nstep_mutate(across(everything(), ~ if_else(.x == \"NA\", NA, .x))) reemplaza todos los valores de “NA” en todas las columnas con el valor NA. Esto se hace para asegurarse de que los datos faltantes estén representados correctamente en el conjunto de datos.\nstep_mutate(estu_cod_mcpio_presentacion_9 = as_factor(estu_cod_mcpio_presentacion_9)) convierte la columna estu_cod_mcpio_presentacion_9 a un factor. Esto es necesario porque esta columna representa códigos de municipios y no debería tratarse como una variable numérica continua.\nstep_mutate(estu_cod_depto_presentacion_9 = as_factor(estu_cod_depto_presentacion_9)) convierte la columna estu_cod_depto_presentacion_9 a un factor. Esto se hace por la misma razón que en el paso anterior.\nstep_mutate(estu_edad_9 = as.numeric(str_extract_all(estu_edad_9, \"\\\\d+\"))) extrae los números de la columna estu_edad_9 y los convierte a valores numéricos. Esto se hace para asegurarse de que la variable se trate como numérica en lugar de como un factor.\nstep_mutate(fami_cuartoshogar_9 = if_else(fami_cuartoshogar_9 == \"NA\", NA, fami_cuartoshogar_9)) reemplaza los valores “NA” en la columna fami_cuartoshogar_9 con el valor NA. Esto es necesario para asegurarse de que los datos faltantes estén representados correctamente.\nstep_mutate(fami_cuartoshogar_9 = as.numeric(fami_cuartoshogar_9)) convierte la columna fami_cuartoshogar_9 a valores numéricos. Esto se hace porque esta variable representa el número de habitaciones en el hogar y se espera que sea una variable numérica.\nstep_impute_mode(all_nominal_predictors()) imputa los valores faltantes en todas las variables nominales (factores) con el modo (valor más común) de cada columna.\nstep_impute_mean(all_double()) imputa los valores faltantes en todas las variables continuas con la media de cada columna.\nstep_zv(all_predictors()) elimina las variables que tienen una varianza cero. Esto se hace para asegurarse de que las variables que no cambian en todo el conjunto de datos no estén incluidas en el modelo.\nstep_normalize(all_double_predictors()) normaliza todas las variables continuas para que tengan media cero y varianza unitaria. Esto se hace para asegurarse de que las variables estén en la misma métrica\n\nset.seed(2231)\n\nmini_datos &lt;- data_icfes |&gt;\n  select(contains(\"fami\"), starts_with(\"estu\"), \"punt_matematicas_11\") |&gt;\n  select(contains(\"9\"), \"punt_matematicas_11\") |&gt; tidyREDCap::drop_labels()\n\ndatos_divididos &lt;- initial_split(mini_datos, prop = 0.8)\n\ndatos_entrenamiento &lt;- training(datos_divididos)\ndatos_prueba &lt;- testing(datos_divididos)\n\nmean(datos_entrenamiento$punt_matematicas_11, na.rm = T)\nmean(datos_prueba$punt_matematicas_11, na.rm = T)\n\n\nreceta_lasso_2 &lt;- \n  recipe(punt_matematicas_11 ~ ., data = datos_entrenamiento) |&gt;\n  step_mutate(across(everything(), ~ if_else(.x == \"NA\", NA, .x))) |&gt;\n  step_mutate(estu_cod_mcpio_presentacion_9 = as_factor(estu_cod_mcpio_presentacion_9)) |&gt;\n  step_mutate(estu_cod_depto_presentacion_9 = as_factor(estu_cod_depto_presentacion_9)) |&gt;\n  step_mutate(estu_edad_9 = as.numeric(str_extract_all(estu_edad_9, \"\\\\d+\"))) |&gt;\n  step_mutate(fami_cuartoshogar_9 = if_else(fami_cuartoshogar_9 == \"NA\", NA, \n                                            fami_cuartoshogar_9)) |&gt;\n  step_mutate(fami_cuartoshogar_9 = as.numeric(fami_cuartoshogar_9)) |&gt;\n  step_impute_mode(all_nominal_predictors()) |&gt;\n  step_impute_mean(all_double()) |&gt;\n  step_zv(all_predictors()) |&gt;\n  step_normalize(all_double_predictors()) |&gt;\n  step_dummy(all_factor_predictors())\n\nAplicar la receta y obtener los datos transformados.\n\ndespues_receta &lt;- prep(receta_lasso) |&gt; bake(new_data = datos_entrenamiento)\n\n\nspec_lasso &lt;-\n  linear_reg(penalty = 0.5, mixture = 1) |&gt;\n  # En glmnet, mixture = 1 es un modelo lasso. Mixture = 0 es ridge regression.\n  set_engine(\"glmnet\") |&gt;\n  set_mode(\"regression\")\n\nEl segundo paso es crear un workflow. A ese workflow le vamos añadir diferentes pasos. Agregamos el modelo.\n\nwf2 &lt;-\n  workflow() |&gt;\n  add_model(spec_lasso)\n\nDespués agregarmos las transformaciones que debemos realizar a las variables.\n\nDummy\nCentrar\nEscalar\n\nCentrar los datos significa restar la media de una variable de los datos. Escalar los datos significa dividir sobre la desviación estándar.\nAhora podemos agregar la receta al workflow, para que se aplique a los datos antes de estimar el modelo\n\nwf2 &lt;- wf2 |&gt;\n  add_recipe(receta_lasso_2)\n\nEstimar el error en el training\n\nlasso_fit &lt;- wf2 |&gt; \n  last_fit(datos_divididos)\n\ncollect_metrics(lasso_fit)\n\n\nwf2 %&gt;%\n  fit(datos_entrenamiento) %&gt;%\n  extract_fit_parsnip() %&gt;%\n  vip::vi() %&gt;%\n  mutate(\n    Importance = abs(Importance),\n    Variable = fct_reorder(Variable, Importance)\n  ) %&gt;%\n  head(20) |&gt;\n  ggplot(aes(x = Importance, y = Variable, fill = Sign)) +\n  geom_col() +\n  scale_x_continuous(expand = c(0, 0)) +\n  labs(y = NULL) +\n  facet_wrap(~Sign, scales = \"free_y\") +\n  theme(legend.position = \"none\")\n\nEl paquete usemodels propone una manera de hacer el recipe, el engine y el workflow\n\nusemodels::use_ranger(punt_matematicas_11 ~ ., data = datos_entrenamiento)\n\n\n\n\nMachine Learning"
   },
   {
     "objectID": "COC/coc.html",
