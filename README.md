@@ -22,19 +22,17 @@
 [^2]: Universidad de los Andes. Facultad de Ciencias Sociales. Departamento de Psicología..
 
 
-
-
 > [!IMPORTANT]
-> This project was develop with the support of the *Expanding the Use of Collaborative Data Science at UM* Fall 2022 from the Institute for Data Science and Computing (IDSC) at the University of Miami.
+> This project was develop with the support of the *Expanding the Use of Collaborative Data Science at UM* Fall 2022 from the [Frost Institute for Data Science and Computing IDSC](https://idsc.miami.edu) from the University of Miami.
 
 
 ### Background :bulb:
 
-While the United States has seen substantial growth in the application of Machine Learning techniques in public health, Latin America presents an untapped opportunity for expansion. This project aims to capitalize on this potential by harmonizing and sharing Machine Learning methodologies in the region, thereby fostering scientific inclusivity and enhancing prevention science in Latin America.
+While the United States has seen substantial growth in the application of Machine Learning techniques in public health, Latin America presents an untapped opportunity for expansion. This project aims to capitalize on this potential by harmonizing and sharing Machine Learning methodologies in the region, thereby fostering scientific inclusively and enhancing prevention science in Latin America.
 
 ---
 
-### Objectives :white_check_mark:
+### Objectives
 
 1. To adapt Machine Learning teaching materials to be culturally and linguistically appropriate for Latin American researchers.
 2. To disseminate these methodologies through academic and research collaborations.
@@ -43,9 +41,11 @@ While the United States has seen substantial growth in the application of Machin
 
 ### Partners :diamonds:
 
-- [University of Los Andes](https://uniandes.edu.co/)
-- [Colombian Institute for Education and Evaluation (ICFES)](https://www.icfes.gov.co/)
 - [Nuevos Rumbos Corporation](https://www.nuevosrumbos.org/)
+- [Colombian Institute for Education and Evaluation (ICFES)](https://www.icfes.gov.co/)
+- [University of Los Andes](https://uniandes.edu.co/)
+- [Fundación Universitaria Konrad Lorenz](https://www.konradlorenz.edu.co)
+- [Universidad Nacional de Colombia](https://unal.edu.co)
 
 ---
 
@@ -57,18 +57,8 @@ This project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By partic
 
 ### Worshops Materials
 
-[**Table of content**](#table-of-content)
+[Workshop website](https://focardozom.github.io/workshops/)
 
-[**Day 0**](#day0)  
-  * [**1 - Preparation**](docs/day0.md)
-
-[**Day 1**](#day1)  
-  * [**1 - Topic1**](docs/day1.md)
-
-[**Day 2**](#day2)  
-  * [**1 - topic2**](docs/day1.md)
-
----
 
 ### Contributing :hearts:
 
