@@ -1,9 +1,3 @@
-<div align="center">
-    <a>
-        <img src="img/logo.svg" height="150"/>
-    </a>
-</div>
-
 <p align="center">
     <a href="/docs/readme_fr.md">Español </a>
     ·
@@ -23,8 +17,8 @@
 
 
 > [!IMPORTANT]
-> This project was develop with the support of the *Expanding the Use of Collaborative Data Science at UM* Fall 2022 from the [Frost Institute for Data Science and Computing IDSC](https://idsc.miami.edu) from the University of Miami.
 
+This project was developed with the support of the *Expanding the Use of Collaborative Data Science at UM* initiative during the Fall of 2023 by the [Frost Institute for Data Science and Computing (IDSC)](https://idsc.miami.edu) at the University of Miami.
 
 ### Background :bulb:
 
@@ -55,7 +49,7 @@ This project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By partic
 
 ---
 
-### Worshops Materials
+### Workshops Materials
 
 [Workshop website](https://focardozom.github.io/workshops/)
 

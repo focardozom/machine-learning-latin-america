@@ -44,3 +44,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+.DS_Store
+.vscode/
+scripts/
+website/
+md_docs/
+README.html
+README_files/
+presentation/
